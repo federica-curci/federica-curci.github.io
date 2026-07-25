@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://federicacurci.com/sitemap.xml
+Sitemap: https://federica-curci.github.io/sitemap.xml

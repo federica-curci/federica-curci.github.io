@@ -1,5 +1,7 @@
 /* Documentary photos from Federica's existing China portfolio. */
-.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:none}
+.hero-art{border:1px solid var(--ink);box-shadow:1.1rem 1.1rem 0 var(--orange);transform:rotate(.7deg);background:var(--lime)}
+.hero-art:before{display:none}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 38%;filter:saturate(1.04) contrast(1.04)}
 .hero-art:after{display:none}
 .hero-art .art-caption{z-index:3;left:auto;right:0;bottom:0;margin:0;background:var(--paper);padding:.5rem .65rem;color:var(--ink)}
 .case-image>img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.86) contrast(1.04)}
@@ -23,8 +25,22 @@
 .work .section-heading-copy>p:last-child{max-width:31rem;font-size:1.03rem;margin:1.2rem 0 0}
 .case-card{grid-template-columns:42% 1fr}
 
+/* Static-site contact form: no backend, just a prepared email. */
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);gap:clamp(2rem,7vw,7rem);align-items:start;flex:1}
+.contact-copy{min-width:0}
+.contact-form{background:rgba(242,239,231,.92);border:1px solid rgba(22,34,29,.35);padding:1.15rem;display:grid;gap:.85rem;margin-top:.4rem}
+.contact-form label{display:grid;gap:.35rem;font:600 .66rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.contact-form input,.contact-form textarea{width:100%;border:1px solid rgba(22,34,29,.38);background:rgba(255,255,255,.45);color:var(--ink);font:500 .92rem var(--sans);padding:.8rem .85rem;border-radius:0;outline:none}
+.contact-form input:focus,.contact-form textarea:focus{border-color:var(--ink);box-shadow:0 0 0 2px rgba(22,34,29,.12)}
+.contact-form textarea{resize:vertical;min-height:132px}
+.contact-form .button{border:0;justify-content:space-between;cursor:pointer;margin-top:.2rem}
+.form-note{font-size:.78rem;margin:0;color:rgba(22,34,29,.72)}
+
 @media(max-width:760px){
+  .hero-art{box-shadow:.7rem .7rem 0 var(--orange);transform:none}
   .work .section-heading{display:block}
   .work-heading-photo{min-height:245px;margin:0 0 2.2rem}
   .case-card{grid-template-columns:1fr}
+  .contact-grid{display:block}
+  .contact-form{margin-top:2.2rem}
 }

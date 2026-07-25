@@ -14,13 +14,15 @@ Open `http://localhost:4173`. Stop with `Ctrl+C`.
 
 ## Before publishing
 
-Use the global search-and-replace in the repository for these placeholders:
+The live metadata is currently set for:
 
-- `REPLACE_WITH_YOUR_EMAIL`
-- `REPLACE_WITH_LINKEDIN_URL`
-- `https://federicacurci.com/` — change if the final domain differs
+- Website: `https://federica-curci.github.io/`
+- Email: `federicacurci9@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/federica-curci`
 
-Also replace `privacy.html` with a GDPR-compliant policy that matches the services actually used. The current contact call-to-action is `mailto:` only, so it collects no data on the website. If adding a contact form, use a provider with GDPR-ready data processing terms and update the policy.
+When a custom domain is connected, update `https://federica-curci.github.io/` in `index.html`, `links.html`, `robots.txt`, and `sitemap.xml`.
+
+Also replace `privacy.html` with a GDPR-compliant policy that matches the services actually used. The current contact form only opens the visitor's email app with a prepared `mailto:` message; the static website does not store submissions. If you later add Formspree, Netlify Forms, Cloudflare Workers, analytics, or any CRM integration, update the privacy policy before publishing.
 
 The four documentary photos currently load from the existing Wix portfolio, with descriptive alt text. Before retiring Wix, download the original approved images and update the `src` values in `index.html` to local files (for example `/images/beijing-event.jpg`) so the new site is fully independent.
 
@@ -39,6 +41,19 @@ The four documentary photos currently load from the existing Wix portfolio, with
 - English and Chinese translations work in the interface. For the strongest multilingual SEO, turn them into real `/en/` and `/zh/` pages before launch (the `hreflang` entries are prepared as a reminder but those pages do not exist yet).
 - Add an original project note or article after each significant assignment. Describe the challenge, approach, scope, and outcome without disclosing confidential information. This is better for both prospective clients and search/AI discovery than generic keyword pages.
 
+## Link-in-bio page
+
+`links.html` is a simple Linktree-style page for social bios, QR codes, email signatures, and event networking. It currently includes:
+
+- Main portfolio
+- Selected work
+- Services and language combinations
+- Project enquiry form
+- Email
+- LinkedIn
+
+Useful future links to add once available: a downloadable PDF CV, a Calendly/booking link, a professional headshot/media kit, a published interpreting or translation article, and a WhatsApp link only if Federica wants clients contacting her there.
+
 ## Design notes
 
 The palette and editorial layout signal calm expertise, cultural fluency, and precision. The flow answers a client's natural decision sequence: *Can she handle my languages and context? Has she done comparable work? What exactly can she do? What happens next? How do I contact her?*
@@ -48,8 +63,10 @@ The palette and editorial layout signal calm expertise, cultural fluency, and pr
 | File | Purpose |
 | --- | --- |
 | `index.html` | Main site, structured data, and content |
+| `links.html` | Link-in-bio page with key contact and portfolio links |
 | `styles.css` | Responsive visual design |
 | `photo-overrides.css` | Presentation rules for Federica's documentary portfolio photos |
 | `main.js` | Language switcher, mobile navigation, and animations |
+| `favicon.svg` | Simple FC browser icon |
 | `robots.txt`, `sitemap.xml` | Crawl discovery |
 | `privacy.html` | Required pre-launch replacement placeholder |
