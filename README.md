@@ -1,4 +1,4 @@
-# Federica Curci — portfolio template
+# Federica Curci : portfolio template
 
 A fast, dependency-free static portfolio for an Italian / English / Chinese interpreter. It is deliberately **content-led**: the work is shown through contextual case studies and designed typography, so it does not depend on a library of photos.
 
