@@ -1,0 +1,30 @@
+/* Documentary photos from Federica's existing China portfolio. */
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:none}
+.hero-art:after{display:none}
+.hero-art .art-caption{z-index:3;left:auto;right:0;bottom:0;margin:0;background:var(--paper);padding:.5rem .65rem;color:var(--ink)}
+.case-image>img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.86) contrast(1.04)}
+.case-image:after{content:"";position:absolute;inset:0;background:linear-gradient(130deg,rgba(22,34,29,.32),transparent 45%);pointer-events:none}
+.image-place,.paper-mark,.stamp,.line-map{z-index:2}
+.paper-mark{color:var(--paper);text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.stamp{background:rgba(242,239,231,.72)}
+.line-map{opacity:.8}
+.image-europe .line-map i{border-color:var(--paper)}
+.image-europe .line-map i:nth-child(3){background:var(--orange)}
+
+/* The work introduction now uses an event photograph, instead of a decorative empty column. */
+.work .section-heading{grid-template-columns:minmax(210px,.83fr) 1.35fr;gap:clamp(2rem,5vw,6rem);align-items:stretch}
+.work-heading-photo{display:block;position:relative;overflow:hidden;min-height:440px;margin:0;background:var(--blue)}
+.work-heading-photo img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.82)}
+.work-heading-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(22,34,29,.6))}
+.work-heading-photo figcaption{position:absolute;z-index:1;bottom:1rem;left:1rem;color:var(--paper);font:500 .58rem/1.45 var(--mono);letter-spacing:.1em}
+.section-heading-copy{grid-column:2;align-self:center}
+.work .section-heading h2{grid-column:auto}
+.work .section-heading-copy .eyebrow{margin-top:0}
+.work .section-heading-copy>p:last-child{max-width:31rem;font-size:1.03rem;margin:1.2rem 0 0}
+.case-card{grid-template-columns:42% 1fr}
+
+@media(max-width:760px){
+  .work .section-heading{display:block}
+  .work-heading-photo{min-height:245px;margin:0 0 2.2rem}
+  .case-card{grid-template-columns:1fr}
+}
