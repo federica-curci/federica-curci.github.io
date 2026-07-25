@@ -45,12 +45,9 @@ The four documentary photos currently load from the existing Wix portfolio, with
 
 `links.html` is a simple Linktree-style page for social bios, QR codes, email signatures, and event networking. It currently includes:
 
-- Main portfolio
-- Selected work
-- Services and language combinations
-- Project enquiry form
-- Email
+- Portfolio
 - LinkedIn
+- Email me
 
 Useful future links to add once available: a downloadable PDF CV, a Calendly/booking link, a professional headshot/media kit, a published interpreting or translation article, and a WhatsApp link only if Federica wants clients contacting her there.
 
