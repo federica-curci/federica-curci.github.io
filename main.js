@@ -25,15 +25,44 @@ const translations = {
 };
 const defaultTitle = document.title;
 const contactState = { email: 'federicacurci9@gmail.com' };
+const cmsState = { cases: null };
 const originalText = new Map([...document.querySelectorAll('[data-i18n]')].map((node) => [node, node.textContent]));
 const originalHtml = new Map([...document.querySelectorAll('[data-i18n-html]')].map((node) => [node, node.innerHTML]));
 const originalPlaceholder = new Map([...document.querySelectorAll('[data-i18n-placeholder]')].map((node) => [node, node.getAttribute('placeholder')]));
+const renderCmsCases = (language) => {
+  if (!Array.isArray(cmsState.cases)) return;
+  const list = document.querySelector('.case-list');
+  if (!list) return;
+  const fallbackLanguage = cmsState.cases.some((item) => item.languages?.[language]) ? language : 'it';
+  list.innerHTML = cmsState.cases.map((item) => {
+    const style = item.style || 'europe';
+    const copy = item.languages?.[fallbackLanguage] || item.languages?.it || {};
+    const image = item.image || {};
+    const mark = item.mark ? (style === 'shanghai' ? `<div class="stamp">${item.mark}</div>` : `<div class="paper-mark">${item.mark}</div>`) : '<div class="line-map"><i></i><i></i><i></i></div>';
+    return `
+      <article class="case-card case-${style}">
+        <div class="case-image image-${style}">
+          <img src="${image.src || ''}" alt="${image.alt || ''}" loading="lazy" />
+          <span class="image-place">${item.place || ''}</span>
+          ${mark}
+        </div>
+        <div class="case-details">
+          <p class="case-type">${copy.type || ''}</p>
+          <h3>${copy.title || ''}</h3>
+          <p>${copy.text || ''}</p>
+          <span class="case-tag">${item.tag || ''}</span>
+        </div>
+      </article>
+    `;
+  }).join('');
+};
 const updateLanguage = (language) => {
   const dictionary = translations[language] || {};
   document.documentElement.lang = language;
   document.querySelectorAll('[data-i18n]').forEach((node) => { const key = node.dataset.i18n; node.textContent = dictionary[key] || originalText.get(node); });
   document.querySelectorAll('[data-i18n-html]').forEach((node) => { const key = node.dataset.i18nHtml; node.innerHTML = dictionary[key] || originalHtml.get(node); });
   document.querySelectorAll('[data-i18n-placeholder]').forEach((node) => { const key = node.dataset.i18nPlaceholder; node.setAttribute('placeholder', dictionary[key] || originalPlaceholder.get(node)); });
+  renderCmsCases(language);
   document.querySelectorAll('.lang').forEach((button) => { const active = button.dataset.lang === language; button.classList.toggle('is-active', active); button.setAttribute('aria-pressed', active); });
   document.title = language === 'en' ? 'Federica Curci | Interpreter IT · EN · 中文' : language === 'zh' ? 'Federica Curci | 意大利语 · 英语 · 中文口译' : defaultTitle;
   localStorage.setItem('federica-language', language);
@@ -72,6 +101,7 @@ const applyCmsContent = (content) => {
     if (content.images.hero?.caption) document.querySelector('.hero-art .art-caption').innerHTML = content.images.hero.caption;
     if (content.images.workHeading?.caption) document.querySelector('.work-heading-photo figcaption').innerHTML = content.images.workHeading.caption;
   }
+  if (Array.isArray(content.cases)) cmsState.cases = content.cases;
   const language = localStorage.getItem('federica-language') || document.documentElement.lang || 'it';
   updateLanguage(translations[language] ? language : 'it');
 };

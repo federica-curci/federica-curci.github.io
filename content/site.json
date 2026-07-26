@@ -7,28 +7,111 @@
   },
   "images": {
     "hero": {
-      "src": "https://static.wixstatic.com/media/5ef761_4f91c94c8bc04d9383601cc87007250c~mv2.jpg/v1/fill/w_820,h_1080,al_c,q_90,usm_0.66_1.00_0.01,enc_auto,quality_auto/d6174fe4-df04-4a84-b939-317960780d17.jpg",
+      "src": "content/d6174fe4-df04-4a84-b939-317960780d17.jpg",
       "alt": "Federica Curci davanti all'Istituto Italiano di Cultura a Pechino",
       "caption": "PECHINO, 2023<br /><i>Istituto Italiano di Cultura</i>"
     },
     "workHeading": {
-      "src": "https://static.wixstatic.com/media/5ef761_64cc4f526b3248c3a588525c60361aff~mv2.jpeg/v1/fill/w_760,h_930,al_c,q_90,usm_0.66_1.00_0.01,enc_auto,quality_auto/5ef761_64cc4f526b3248c3a588525c60361aff~mv2.jpeg",
+      "src": "content/1693999475352.jpeg",
       "alt": "Pubblico durante un evento culturale italiano a Pechino",
       "caption": "EVENTI CULTURALI<br />PECHINO"
     },
     "caseOne": {
-      "src": "https://static.wixstatic.com/media/5ef761_af85002d5b4e4a39a9d7aa312e52fb7f~mv2.jpeg/v1/fill/w_900,h_610,al_c,q_90,usm_0.66_1.00_0.01,enc_auto,quality_auto/5ef761_af85002d5b4e4a39a9d7aa312e52fb7f~mv2.jpeg",
+      "src": "content/1693999477355 (1).jpeg",
       "alt": "Federica parla durante un evento dell'Istituto Italiano di Cultura a Pechino"
     },
     "caseTwo": {
-      "src": "https://static.wixstatic.com/media/5ef761_54341f3e18194cb089ba066f086526e2~mv2.jpeg/v1/crop/x_0,y_2,w_975,h_1411/fill/w_820,h_610,al_c,q_90,usm_0.66_1.00_0.01,enc_auto,quality_auto/1767195069676.jpeg",
+      "src": "content/1767195069676.jpeg",
       "alt": "Cooking demo a Shanghai con interprete italiano cinese"
     },
     "caseThree": {
-      "src": "https://static.wixstatic.com/media/5ef761_ad9543d670bc43568a600fa5b3c82ae7~mv2.jpeg/v1/crop/x_0,y_181,w_1702,h_1098/fill/w_900,h_610,al_c,q_90,usm_0.66_1.00_0.01,enc_auto,quality_auto/1767195070678.jpeg",
+      "src": "content/Dilmah 2.jpeg",
       "alt": "Federica con il gruppo di una fiera professionale in Cina"
     }
   },
+  "cases": [
+    {
+      "style": "beijing",
+      "image": {
+        "src": "content/1693999477355 (1).jpeg",
+        "alt": "Federica parla durante un evento dell'Istituto Italiano di Cultura a Pechino"
+      },
+      "place": "北京<br />BEIJING",
+      "mark": "文化",
+      "tag": "IT ↔ 中文",
+      "languages": {
+        "it": {
+          "type": "Diplomazia culturale · 2023",
+          "title": "Far sentire tutti nella stessa stanza",
+          "text": "A Pechino, grazie al programma MAECI, ho lavorato alla promozione degli scambi culturali tra Italia e Cina. Durante gli eventi interpretavo in consecutiva tra ospiti italiani e pubblico cinese: era bello vedere una conversazione prendere forma, da entrambe le parti."
+        },
+        "en": {
+          "type": "Cultural diplomacy · 2023",
+          "title": "Making everyone feel in the same room",
+          "text": "In Beijing, through the MAECI programme, I worked to promote cultural exchange between Italy and China. At events, I provided consecutive interpreting between Italian guests and Chinese audiences: it was wonderful to watch a conversation take shape on both sides."
+        },
+        "zh": {
+          "type": "文化外交 · 2023",
+          "title": "让每个人都在同一个对话里",
+          "text": "通过 MAECI 项目，我在北京参与推动意中两国文化交流。在活动中，我为意大利嘉宾和中国公众提供交替传译：看到双方的对话渐渐成形，是一件很美好的事。"
+        }
+      }
+    },
+    {
+      "style": "shanghai",
+      "image": {
+        "src": "content/1767195069676.jpeg",
+        "alt": "Cooking demo a Shanghai con interprete italiano cinese"
+      },
+      "place": "上海<br />SHANGHAI",
+      "mark": "面子",
+      "tag": "IT ↔ 中文",
+      "languages": {
+        "it": {
+          "type": "Business & food brands · 2025",
+          "title": "Portare l'Italia a tavola, in Cina",
+          "text": "A Shanghai ero l'unica dipendente straniera in una trading company. Tra marketing, brand management e interpretariato, ho accompagnato chef, fornitori e distributori in cooking demo, visite e momenti di confronto commerciale. È lì che ho imparato quanto contino i dettagli, soprattutto quando si fa business."
+        },
+        "en": {
+          "type": "Business & food brands · 2025",
+          "title": "Bringing Italy to the table in China",
+          "text": "In Shanghai I was the only foreign employee at a trading company. Alongside marketing, brand management and interpreting, I supported chefs, suppliers and distributors during cooking demos, company visits and commercial conversations. That is where I learned just how much the details matter in business."
+        },
+        "zh": {
+          "type": "商业与食品品牌 · 2025",
+          "title": "让意大利走上中国餐桌",
+          "text": "在上海贸易公司，我是唯一的外籍员工。除了营销、品牌管理和口译，我还参与烹饪演示、商务谈判和参访。正是在那里，我明白了商业合作中细节有多重要。"
+        }
+      }
+    },
+    {
+      "style": "europe",
+      "image": {
+        "src": "content/Dilmah 2.jpeg",
+        "alt": "Federica con il gruppo di una fiera professionale in Cina"
+      },
+      "place": "SHANGHAI<br />ON THE MOVE",
+      "mark": "",
+      "tag": "IT ↔ EN · IT ↔ 中文",
+      "languages": {
+        "it": {
+          "type": "Conferenze · Incontri · Formazione",
+          "title": "Leggere anche la stanza",
+          "text": "Quando si lavora tra Italia e Cina, conta anche il modo in cui si fanno le domande, il momento in cui si risponde e lo spazio che si lascia. È questo che porto in fiere, meeting, visite e progetti internazionali."
+        },
+        "en": {
+          "type": "Conferences · Meetings · Training",
+          "title": "Reading the room, too",
+          "text": "Between Italy and China, the way a question is asked, when someone answers and the space left in between all matter. That is what I bring to trade fairs, meetings, visits and international projects."
+        },
+        "zh": {
+          "type": "会议 · 商务活动 · 培训",
+          "title": "也要读懂整个房间",
+          "text": "在意大利和中国之间，提问的方式、回应的时机和留白的空间同样重要。我把这种敏感带到展会、会议、参访和国际项目中。"
+        }
+      }
+    }
+  ],
   "languages": {
     "it": {
       "nav_work": "Esperienze",

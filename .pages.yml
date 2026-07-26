@@ -1,6 +1,6 @@
 media:
-  input: media/images
-  output: /media/images
+  input: content
+  output: /content
   extensions: [jpg, jpeg, png, webp, gif, svg]
   rename: safe
 
@@ -211,6 +211,19 @@ components:
         label: Footer text
         type: string
 
+  caseLanguageFields:
+    type: object
+    fields:
+      - name: type
+        label: Type/date
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+
 content:
   - name: site
     label: Website Content
@@ -253,6 +266,42 @@ content:
           - name: caseThree
             label: Case 3 photo
             component: imageSlot
+      - name: cases
+        label: Portfolio cases
+        type: list
+        fields:
+          - name: style
+            label: Visual style
+            type: string
+            description: Use beijing, shanghai, or europe.
+          - name: image
+            label: Photo
+            component: imageSlot
+          - name: place
+            label: Place label
+            type: string
+            description: HTML such as <br /> is allowed.
+          - name: mark
+            label: Decorative mark
+            type: string
+            required: false
+            description: Optional. Leave empty for the line-map decoration.
+          - name: tag
+            label: Language tag
+            type: string
+          - name: languages
+            label: Case text by language
+            type: object
+            fields:
+              - name: it
+                label: Italian
+                component: caseLanguageFields
+              - name: en
+                label: English
+                component: caseLanguageFields
+              - name: zh
+                label: Chinese
+                component: caseLanguageFields
       - name: languages
         label: Text by language
         type: object

@@ -24,7 +24,7 @@ When a custom domain is connected, update `https://federica-curci.github.io/` in
 
 Also replace `privacy.html` with a GDPR-compliant policy that matches the services actually used. The current contact form only opens the visitor's email app with a prepared `mailto:` message; the static website does not store submissions. If you later add Formspree, Netlify Forms, Cloudflare Workers, analytics, or any CRM integration, update the privacy policy before publishing.
 
-The four documentary photos currently load from the existing Wix portfolio, with descriptive alt text. Before retiring Wix, download the original approved images and update the `src` values in `index.html` to local files (for example `/images/beijing-event.jpg`) so the new site is fully independent.
+The main documentary photos now load from local files in `content/`, so the new site is no longer dependent on Wix for those images.
 
 ## Editing without code
 
@@ -33,7 +33,7 @@ The site is now prepared for Pages CMS.
 Editable content lives in:
 
 - `content/site.json` for text, contact details, link page text, and image references
-- `media/images/` for images uploaded through the CMS
+- `content/` for images uploaded through the CMS
 - `.pages.yml` for the CMS editing interface
 
 To enable browser editing:
@@ -49,6 +49,8 @@ To enable browser editing:
 9. GitHub Pages or Cloudflare Pages redeploys automatically.
 
 Some title/button fields intentionally allow small HTML snippets such as `<br />`, `<em>...</em>`, `<span>↗</span>`, and `<b>+</b>` because the design uses them for line breaks, emphasis, arrows, and FAQ icons. Keep those unless you are intentionally changing the layout.
+
+To add a new portfolio case in Pages CMS, open **Website Content → Portfolio cases → Add item**. Add the photo, visual style, place label, language tag, and the case text in Italian, English, and Chinese. The site will render the new case automatically.
 
 ## Deploy with GitHub + Cloudflare Pages
 
@@ -87,7 +89,7 @@ The palette and editorial layout signal calm expertise, cultural fluency, and pr
 | `links.html` | Link-in-bio page with key contact and portfolio links |
 | `content/site.json` | Editable CMS content source |
 | `.pages.yml` | Pages CMS editor configuration |
-| `media/images/` | Images uploaded from the CMS |
+| `content/` image files | Images uploaded from the CMS |
 | `styles.css` | Responsive visual design |
 | `photo-overrides.css` | Presentation rules for Federica's documentary portfolio photos |
 | `main.js` | Language switcher, mobile navigation, and animations |
