@@ -31,6 +31,7 @@
   },
   "cases": [
     {
+      "adminTitle": "Cultural diplomacy · Beijing 2023",
       "style": "beijing",
       "image": {
         "src": "content/1693999477355 (1).jpeg",
@@ -58,6 +59,7 @@
       }
     },
     {
+      "adminTitle": "Business and food brands · Shanghai 2025",
       "style": "shanghai",
       "image": {
         "src": "content/1767195069676.jpeg",
@@ -85,6 +87,7 @@
       }
     },
     {
+      "adminTitle": "Conferences, meetings and training",
       "style": "europe",
       "image": {
         "src": "content/Dilmah 2.jpeg",

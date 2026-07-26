@@ -268,8 +268,16 @@ content:
             component: imageSlot
       - name: cases
         label: Portfolio cases
-        type: list
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{adminTitle} ({index})"
         fields:
+          - name: adminTitle
+            label: CMS title
+            type: string
+            description: Internal label only, used to identify this case in Pages CMS.
           - name: style
             label: Visual style
             type: string
