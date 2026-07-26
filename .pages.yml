@@ -1,0 +1,268 @@
+media:
+  input: media/images
+  output: /media/images
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+  rename: safe
+
+components:
+  imageSlot:
+    type: object
+    fields:
+      - name: src
+        label: Image
+        type: image
+      - name: alt
+        label: Alt text
+        type: string
+      - name: caption
+        label: Caption
+        type: text
+        required: false
+        description: HTML such as <br /> is allowed for the current design.
+
+  languageFields:
+    type: object
+    fields:
+      - name: nav_work
+        label: Navigation - Work
+        type: string
+      - name: nav_services
+        label: Navigation - Services
+        type: string
+      - name: nav_about
+        label: Navigation - About
+        type: string
+      - name: nav_cta
+        label: Navigation - Contact button
+        type: string
+      - name: hero_eyebrow
+        label: Hero eyebrow
+        type: string
+      - name: hero_title
+        label: Hero title
+        type: text
+        description: HTML such as <br /> and <em> is allowed.
+      - name: hero_intro
+        label: Hero intro
+        type: text
+      - name: hero_cta
+        label: Hero button
+        type: string
+      - name: hero_link
+        label: Hero secondary link
+        type: string
+      - name: hero_foot
+        label: Hero footer note
+        type: string
+      - name: work_eyebrow
+        label: Work eyebrow
+        type: string
+      - name: work_title
+        label: Work title
+        type: text
+      - name: work_intro
+        label: Work intro
+        type: text
+      - name: case_one_type
+        label: Case 1 type/date
+        type: string
+      - name: case_one_title
+        label: Case 1 title
+        type: string
+      - name: case_one_text
+        label: Case 1 text
+        type: text
+      - name: case_two_type
+        label: Case 2 type/date
+        type: string
+      - name: case_two_title
+        label: Case 2 title
+        type: string
+      - name: case_two_text
+        label: Case 2 text
+        type: text
+      - name: case_three_type
+        label: Case 3 type/date
+        type: string
+      - name: case_three_title
+        label: Case 3 title
+        type: string
+      - name: case_three_text
+        label: Case 3 text
+        type: text
+      - name: services_eyebrow
+        label: Services eyebrow
+        type: string
+      - name: services_title
+        label: Services title
+        type: text
+      - name: service_one_title
+        label: Service 1 title
+        type: string
+      - name: service_one_text
+        label: Service 1 text
+        type: text
+      - name: service_two_title
+        label: Service 2 title
+        type: string
+      - name: service_two_text
+        label: Service 2 text
+        type: text
+      - name: service_three_title
+        label: Service 3 title
+        type: string
+      - name: service_three_text
+        label: Service 3 text
+        type: text
+      - name: about_eyebrow
+        label: About eyebrow
+        type: string
+      - name: about_text
+        label: About statement
+        type: text
+      - name: quote
+        label: Quote
+        type: text
+      - name: bio_one
+        label: Bio paragraph 1
+        type: text
+      - name: bio_two
+        label: Bio paragraph 2
+        type: text
+      - name: availability
+        label: Availability
+        type: string
+      - name: about_cta
+        label: About link
+        type: string
+      - name: process_eyebrow
+        label: Process eyebrow
+        type: string
+      - name: process_title
+        label: Process title
+        type: text
+      - name: process_one_title
+        label: Process 1 title
+        type: string
+      - name: process_one_text
+        label: Process 1 text
+        type: text
+      - name: process_two_title
+        label: Process 2 title
+        type: string
+      - name: process_two_text
+        label: Process 2 text
+        type: text
+      - name: process_three_title
+        label: Process 3 title
+        type: string
+      - name: process_three_text
+        label: Process 3 text
+        type: text
+      - name: faq_title
+        label: FAQ title
+        type: text
+      - name: faq_one_q
+        label: FAQ 1 question
+        type: string
+      - name: faq_one_a
+        label: FAQ 1 answer
+        type: text
+      - name: faq_two_q
+        label: FAQ 2 question
+        type: string
+      - name: faq_two_a
+        label: FAQ 2 answer
+        type: text
+      - name: faq_three_q
+        label: FAQ 3 question
+        type: string
+      - name: faq_three_a
+        label: FAQ 3 answer
+        type: text
+      - name: contact_eyebrow
+        label: Contact eyebrow
+        type: string
+      - name: contact_title
+        label: Contact title
+        type: text
+      - name: contact_note
+        label: Contact note
+        type: text
+      - name: form_name
+        label: Form name label
+        type: string
+      - name: form_email
+        label: Form email label
+        type: string
+      - name: form_project
+        label: Form project label
+        type: string
+      - name: form_project_placeholder
+        label: Form project placeholder
+        type: string
+      - name: form_submit
+        label: Form submit button
+        type: string
+      - name: form_note
+        label: Form note
+        type: text
+      - name: footer
+        label: Footer text
+        type: string
+
+content:
+  - name: site
+    label: Website Content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: profile
+        label: Profile, Contact, Links
+        type: object
+        fields:
+          - name: email
+            label: Email
+            type: string
+          - name: linkedin
+            label: LinkedIn URL
+            type: string
+          - name: website
+            label: Website URL
+            type: string
+          - name: linksIntro
+            label: Link page intro
+            type: text
+      - name: images
+        label: Images
+        type: object
+        fields:
+          - name: hero
+            label: Hero photo
+            component: imageSlot
+          - name: workHeading
+            label: Work intro photo
+            component: imageSlot
+          - name: caseOne
+            label: Case 1 photo
+            component: imageSlot
+          - name: caseTwo
+            label: Case 2 photo
+            component: imageSlot
+          - name: caseThree
+            label: Case 3 photo
+            component: imageSlot
+      - name: languages
+        label: Text by language
+        type: object
+        fields:
+          - name: it
+            label: Italian
+            component: languageFields
+          - name: en
+            label: English
+            component: languageFields
+          - name: zh
+            label: Chinese
+            component: languageFields

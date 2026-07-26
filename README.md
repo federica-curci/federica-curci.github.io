@@ -26,6 +26,30 @@ Also replace `privacy.html` with a GDPR-compliant policy that matches the servic
 
 The four documentary photos currently load from the existing Wix portfolio, with descriptive alt text. Before retiring Wix, download the original approved images and update the `src` values in `index.html` to local files (for example `/images/beijing-event.jpg`) so the new site is fully independent.
 
+## Editing without code
+
+The site is now prepared for Pages CMS.
+
+Editable content lives in:
+
+- `content/site.json` for text, contact details, link page text, and image references
+- `media/images/` for images uploaded through the CMS
+- `.pages.yml` for the CMS editing interface
+
+To enable browser editing:
+
+1. Push this repository to GitHub.
+2. Go to `https://app.pagescms.org`.
+3. Sign in with GitHub.
+4. Install/authorize the Pages CMS GitHub app for the portfolio repository.
+5. Open the repository in Pages CMS.
+6. Open **Website Content**.
+7. Edit text, email, LinkedIn, or images.
+8. Save. Pages CMS commits the change to GitHub.
+9. GitHub Pages or Cloudflare Pages redeploys automatically.
+
+Some title/button fields intentionally allow small HTML snippets such as `<br />`, `<em>...</em>`, `<span>↗</span>`, and `<b>+</b>` because the design uses them for line breaks, emphasis, arrows, and FAQ icons. Keep those unless you are intentionally changing the layout.
+
 ## Deploy with GitHub + Cloudflare Pages
 
 1. Create a GitHub repository and push these files to `main`.
@@ -61,9 +85,13 @@ The palette and editorial layout signal calm expertise, cultural fluency, and pr
 | --- | --- |
 | `index.html` | Main site, structured data, and content |
 | `links.html` | Link-in-bio page with key contact and portfolio links |
+| `content/site.json` | Editable CMS content source |
+| `.pages.yml` | Pages CMS editor configuration |
+| `media/images/` | Images uploaded from the CMS |
 | `styles.css` | Responsive visual design |
 | `photo-overrides.css` | Presentation rules for Federica's documentary portfolio photos |
 | `main.js` | Language switcher, mobile navigation, and animations |
+| `links.js` | Loads CMS contact/link content on the link page |
 | `favicon.svg` | Simple FC browser icon |
-| `robots.txt`, `sitemap.xml` | Crawl discovery |
+| `.nojekyll`, `robots.txt`, `sitemap.xml` | Static hosting and crawl discovery |
 | `privacy.html` | Required pre-launch replacement placeholder |

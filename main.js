@@ -24,6 +24,7 @@ const translations = {
   }
 };
 const defaultTitle = document.title;
+const contactState = { email: 'federicacurci9@gmail.com' };
 const originalText = new Map([...document.querySelectorAll('[data-i18n]')].map((node) => [node, node.textContent]));
 const originalHtml = new Map([...document.querySelectorAll('[data-i18n-html]')].map((node) => [node, node.innerHTML]));
 const originalPlaceholder = new Map([...document.querySelectorAll('[data-i18n-placeholder]')].map((node) => [node, node.getAttribute('placeholder')]));
@@ -39,6 +40,45 @@ const updateLanguage = (language) => {
 };
 document.querySelectorAll('.lang').forEach((button) => button.addEventListener('click', () => updateLanguage(button.dataset.lang)));
 const savedLanguage = localStorage.getItem('federica-language'); if (savedLanguage && translations[savedLanguage]) updateLanguage(savedLanguage);
+const setImage = (selector, image) => {
+  const element = document.querySelector(selector);
+  if (!element || !image) return;
+  if (image.src) element.src = image.src;
+  if (image.alt) element.alt = image.alt;
+};
+const applyCmsContent = (content) => {
+  if (!content || typeof content !== 'object') return;
+  if (content.languages) {
+    Object.entries(content.languages).forEach(([language, values]) => {
+      translations[language] = { ...(translations[language] || {}), ...values };
+    });
+  }
+  if (content.profile) {
+    if (content.profile.email) contactState.email = content.profile.email;
+    document.querySelectorAll('.contact-email').forEach((link) => {
+      link.href = `mailto:${contactState.email}`;
+      link.innerHTML = `${contactState.email} <span>↗</span>`;
+    });
+    if (content.profile.linkedin) {
+      document.querySelectorAll('a[href*="linkedin.com/in/federica-curci"]').forEach((link) => { link.href = content.profile.linkedin; });
+    }
+  }
+  if (content.images) {
+    setImage('.hero-photo', content.images.hero);
+    setImage('.work-heading-photo img', content.images.workHeading);
+    setImage('.case-beijing .case-image img', content.images.caseOne);
+    setImage('.case-shanghai .case-image img', content.images.caseTwo);
+    setImage('.case-europe .case-image img', content.images.caseThree);
+    if (content.images.hero?.caption) document.querySelector('.hero-art .art-caption').innerHTML = content.images.hero.caption;
+    if (content.images.workHeading?.caption) document.querySelector('.work-heading-photo figcaption').innerHTML = content.images.workHeading.caption;
+  }
+  const language = localStorage.getItem('federica-language') || document.documentElement.lang || 'it';
+  updateLanguage(translations[language] ? language : 'it');
+};
+fetch('content/site.json')
+  .then((response) => (response.ok ? response.json() : null))
+  .then(applyCmsContent)
+  .catch(() => {});
 document.querySelector('.menu-button').addEventListener('click', (event) => { const open = document.body.classList.toggle('menu-open'); event.currentTarget.setAttribute('aria-expanded', open); });
 document.querySelectorAll('.desktop-nav a').forEach((link) => link.addEventListener('click', () => { document.body.classList.remove('menu-open'); document.querySelector('.menu-button').setAttribute('aria-expanded', 'false'); }));
 document.getElementById('year').textContent = new Date().getFullYear();
@@ -57,7 +97,7 @@ if (contactForm) {
       'Project:',
       message
     ].join('\n');
-    window.location.href = `mailto:federicacurci9@gmail.com?subject=${encodeURIComponent('Interpreting project enquiry')}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${contactState.email}?subject=${encodeURIComponent('Interpreting project enquiry')}&body=${encodeURIComponent(body)}`;
   });
 }
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .12 });
