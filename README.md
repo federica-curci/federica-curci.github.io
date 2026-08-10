@@ -22,7 +22,7 @@ The live metadata is currently set for:
 
 When a custom domain is connected, update `https://federica-curci.github.io/` in `index.html`, `links.html`, `robots.txt`, and `sitemap.xml`.
 
-Also replace `privacy.html` with a GDPR-compliant policy that matches the services actually used. The current contact form only opens the visitor's email app with a prepared `mailto:` message; the static website does not store submissions. If you later add Formspree, Netlify Forms, Cloudflare Workers, analytics, or any CRM integration, update the privacy policy before publishing.
+Also replace `privacy.html` with a GDPR-compliant policy that matches the services actually used. The contact form currently uses FormSubmit to send messages to email. If you later change the form provider, add analytics, or connect a CRM, update the privacy policy before publishing.
 
 The main documentary photos now load from local files in `content/`, so the new site is no longer dependent on Wix for those images.
 

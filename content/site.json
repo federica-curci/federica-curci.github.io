@@ -176,7 +176,7 @@
       "form_project": "Progetto",
       "form_project_placeholder": "Lingue, data, luogo e cosa stai organizzando",
       "form_submit": "Invia richiesta <span>↗</span>",
-      "form_note": "Si aprirà la tua app email con il messaggio già pronto.",
+      "form_note": "Il messaggio verrà inviato direttamente via email.",
       "footer": "INTERPRETING · TRANSLATION · CULTURAL COMMUNICATION"
     },
     "en": {
@@ -240,7 +240,7 @@
       "form_project": "Project",
       "form_project_placeholder": "Languages, date, place and what you are organising",
       "form_submit": "Send request <span>↗</span>",
-      "form_note": "Your email app will open with the message already prepared.",
+      "form_note": "Your message will be sent directly by email.",
       "footer": "INTERPRETING · TRANSLATION · CULTURAL COMMUNICATION"
     },
     "zh": {
@@ -304,7 +304,7 @@
       "form_project": "项目",
       "form_project_placeholder": "语言、日期、地点，以及您正在筹备的内容",
       "form_submit": "发送请求 <span>↗</span>",
-      "form_note": "系统会打开您的邮件应用，并准备好邮件内容。",
+      "form_note": "您的消息会直接通过电子邮件发送。",
       "footer": "口译 · 笔译 · 跨文化沟通"
     }
   }

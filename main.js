@@ -11,7 +11,7 @@ const translations = {
     about_eyebrow: 'A profile, not a pose', about_text: 'Languages are just the beginning.<br />My work is making sure <em>people genuinely understand each other.</em>', quote: 'A silence, a smile or an expression can completely change the meaning of a conversation.', bio_one: 'I was ten when, on a trip to London with my father, I saw a small misunderstanding become a real problem. He had left an umbrella in a shop and security thought he was taking it. An Italian shop assistant explained it in English and the whole situation dissolved. I decided that was the work I wanted to do.', bio_two: 'Since then, I have studied and worked between Italy and China. After my MA in Interpreting and Translation at UNINT, Beijing and Shanghai taught me something simple: knowing languages is essential, but knowing how to listen to people matters just as much.', availability: 'Europe · China · Remote', about_cta: 'If you have a project, write to me <span>↗</span>',
     process_eyebrow: 'A simple process', process_title: 'From first email<br />to <em>real understanding.</em>', process_one_title: 'Tell me', process_one_text: 'Dates, languages, venue or platform, format and objective.', process_two_title: 'I prepare', process_two_text: 'I define the format and gather the useful material.', process_three_title: 'I interpret', process_three_text: 'Present, precise and discreet support when it matters.',
     faq_title: 'Useful questions,<br /><em>clear answers.</em>', faq_one_q: 'Which language combinations do you offer?<b>+</b>', faq_one_a: 'Italian ↔ Chinese and Italian ↔ English. I will recommend the best language direction and format for your project.', faq_two_q: 'Do you work outside Milan?<b>+</b>', faq_two_a: 'Yes. I am based in Milan and available for projects across Europe, China and remotely.', faq_three_q: 'What do you need for a quote?<b>+</b>', faq_three_a: 'Please share dates, venue or platform, languages, event format and any available material. I will reply with a tailored proposal.',
-    contact_eyebrow: 'Available for new collaborations', contact_title: 'Write to me,<br />when you are <em>ready.</em>', contact_note: 'Tell me a little about what you are putting together, even in just a few lines. I will tell you the best way to begin.', form_name: 'Name', form_email: 'Email', form_project: 'Project', form_project_placeholder: 'Languages, date, place and what you are organising', form_submit: 'Send request <span>↗</span>', form_note: 'Your email app will open with the message already prepared.', footer: 'INTERPRETING · TRANSLATION · CULTURAL COMMUNICATION'
+    contact_eyebrow: 'Available for new collaborations', contact_title: 'Write to me,<br />when you are <em>ready.</em>', contact_note: 'Tell me a little about what you are putting together, even in just a few lines. I will tell you the best way to begin.', form_name: 'Name', form_email: 'Email', form_project: 'Project', form_project_placeholder: 'Languages, date, place and what you are organising', form_submit: 'Send request <span>↗</span>', form_note: 'Your message will be sent directly by email.', footer: 'INTERPRETING · TRANSLATION · CULTURAL COMMUNICATION'
   },
   zh: {
     nav_work: '项目经验', nav_services: '服务', nav_about: '关于我', nav_cta: '联系我', hero_eyebrow: '口译员、笔译员 · 常驻米兰，随时出发', hero_title: '说同一种语言<br />也未必<em>真正理解。</em>', hero_intro: '我是 Federica。我从事意大利语、英语与中文之间的口笔译，因为重要的对话不应只是逐字翻译。', hero_cta: '聊聊您的项目 <span>↗</span>', hero_link: '了解我的工作 <span>↓</span>', hero_foot: '口译 · 笔译 · 跨文化沟通',
@@ -20,7 +20,7 @@ const translations = {
     about_eyebrow: '一个简介，而非摆拍', about_text: '语言只是开始。<br />我的工作是让<em>人们真正相互理解。</em>', quote: '一个沉默、一个微笑或一个表情，都可能完全改变一段对话的含义。', bio_one: '十岁时，我和父亲去伦敦旅行，第一次看到一个小小的误会如何变成问题。他把雨伞落在商店里，保安以为他要把伞带走。一位意大利店员用英语解释了情况，误会立刻化解。那时我决定，这就是我想做的工作。', bio_two: '从那以后，我在意大利和中国之间学习、工作。UNINT 的口笔译硕士课程，以及北京和上海的经历，让我懂得一件简单的事：掌握语言很重要，但懂得倾听同样重要。', availability: '欧洲 · 中国 · 远程', about_cta: '如果您有项目，请联系我 <span>↗</span>',
     process_eyebrow: '简单的合作流程', process_title: '从第一封邮件<br />到<em>真正的理解。</em>', process_one_title: '告诉我', process_one_text: '日期、语言、地点或平台、形式和目标。', process_two_title: '我来准备', process_two_text: '我会确定服务形式，并收集有用的材料。', process_three_title: '我来口译', process_three_text: '在关键时刻提供在场、精准、保密的支持。',
     faq_title: '实用问题，<br /><em>清晰回答。</em>', faq_one_q: '您提供哪些语言组合？<b>+</b>', faq_one_a: '意大利语 ↔ 中文、意大利语 ↔ 英语。我会为您的项目建议最合适的语言方向与服务形式。', faq_two_q: '您在米兰以外工作吗？<b>+</b>', faq_two_a: '可以。我常驻米兰，也可在欧洲、中国及远程提供服务。', faq_three_q: '报价需要哪些信息？<b>+</b>', faq_three_a: '请提供日期、场地或平台、语言、活动形式及已有材料。我会回复一份针对性的方案。',
-    contact_eyebrow: '欢迎新的合作', contact_title: '准备好了，<br />就<em>写给我。</em>', contact_note: '哪怕只有几句话，也请告诉我您正在筹备什么。我会告诉您最适合的开始方式。', form_name: '姓名', form_email: '邮箱', form_project: '项目', form_project_placeholder: '语言、日期、地点，以及您正在筹备的内容', form_submit: '发送请求 <span>↗</span>', form_note: '系统会打开您的邮件应用，并准备好邮件内容。', footer: '口译 · 笔译 · 跨文化沟通'
+    contact_eyebrow: '欢迎新的合作', contact_title: '准备好了，<br />就<em>写给我。</em>', contact_note: '哪怕只有几句话，也请告诉我您正在筹备什么。我会告诉您最适合的开始方式。', form_name: '姓名', form_email: '邮箱', form_project: '项目', form_project_placeholder: '语言、日期、地点，以及您正在筹备的内容', form_submit: '发送请求 <span>↗</span>', form_note: '您的消息会直接通过电子邮件发送。', footer: '口译 · 笔译 · 跨文化沟通'
   }
 };
 const defaultTitle = document.title;
@@ -114,20 +114,37 @@ document.querySelectorAll('.desktop-nav a').forEach((link) => link.addEventListe
 document.getElementById('year').textContent = new Date().getFullYear();
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
-  contactForm.addEventListener('submit', (event) => {
+  contactForm.addEventListener('submit', async (event) => {
     event.preventDefault();
     const formData = new FormData(contactForm);
-    const name = formData.get('name') || '';
-    const email = formData.get('email') || '';
-    const message = formData.get('message') || '';
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      '',
-      'Project:',
-      message
-    ].join('\n');
-    window.location.href = `mailto:${contactState.email}?subject=${encodeURIComponent('Interpreting project enquiry')}&body=${encodeURIComponent(body)}`;
+    const button = contactForm.querySelector('button[type="submit"]');
+    const note = contactForm.querySelector('.form-note');
+    const originalButton = button.innerHTML;
+    button.disabled = true;
+    button.textContent = 'Sending...';
+    if (note) note.textContent = 'Sending your message...';
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${contactState.email}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          name: formData.get('name') || '',
+          email: formData.get('email') || '',
+          message: formData.get('message') || '',
+          _subject: 'New enquiry from Federica Curci website',
+          _template: 'table',
+          _honey: formData.get('_honey') || ''
+        })
+      });
+      if (!response.ok) throw new Error('Form submit failed');
+      contactForm.reset();
+      if (note) note.textContent = 'Message sent. Thank you.';
+    } catch (error) {
+      if (note) note.innerHTML = `Something went wrong. Please email <a href="mailto:${contactState.email}">${contactState.email}</a>.`;
+    } finally {
+      button.disabled = false;
+      button.innerHTML = originalButton;
+    }
   });
 }
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .12 });
