@@ -9,12 +9,12 @@
     "hero": {
       "src": "/content/1693999477355 (1).jpeg",
       "alt": "Federica Curci davanti all'Istituto Italiano di Cultura a Pechino",
-      "caption": "Istituto Italiano di Cultura, Pechino<br />"
+      "caption": "Mostra \"Il trittico del Centenario\", Pechino<br />"
     },
     "workHeading": {
       "src": "/content/1693999475352.jpeg",
       "alt": "Pubblico durante un evento culturale italiano a Pechino",
-      "caption": "EVENTI CULTURALI<br />PECHINO"
+      "caption": "Istituto Italiano di Cultura, PechinoI<br />PECHINO"
     },
     "caseOne": {
       "src": "/content/1693999477355 (1).jpeg",
@@ -117,15 +117,15 @@
   "languages": {
     "it": {
       "nav_work": "Servizi ",
-      "nav_services": "Servizi",
-      "nav_about": "Profilo",
+      "nav_services": "Esperienze ",
+      "nav_about": "Formazione",
       "nav_cta": "Contattami",
-      "hero_eyebrow": "Interprete e traduttrice · Milano, ovunque serva",
-      "hero_title": "Parlare la stessa lingua<br />non basta <em>sempre.</em>",
-      "hero_intro": "Sono Federica. Interpreto tra italiano, inglese e cinese perché le conversazioni importanti meritano più di una traduzione parola per parola.",
-      "hero_cta": "Raccontami il progetto <span>↗</span>",
+      "hero_eyebrow": "Interprete e Traduttrice · Milano",
+      "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole.</em>",
+      "hero_intro": "Ciao! Sono Federica e interpreto tra italiano, inglese e cinese perché le conversazioni importanti meritano più di una traduzione parola per parola. ",
+      "hero_cta": "Raccontami il tuo progetto <span>↗</span>",
       "hero_link": "Scopri il mio lavoro <span>↓</span>",
-      "hero_foot": "Interpretariato · Traduzione · Comunicazione",
+      "hero_foot": "Interpretariato · Traduzione · Consulenza linguistica",
       "work_eyebrow": "Esperienze che mi hanno formata",
       "work_title": "Dove sono stata,<br /><em>cosa ho imparato.</em>",
       "work_intro": "Dalle sale dell'Istituto Italiano di Cultura di Pechino alle cucine, agli incontri e alle visite aziendali di Shanghai: ogni luogo mi ha insegnato a prestare attenzione a quello che succede tra le parole.",
