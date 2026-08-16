@@ -9,7 +9,7 @@
     "hero": {
       "src": "/content/1693999477355 (1).jpeg",
       "alt": "Federica Curci davanti all'Istituto Italiano di Cultura a Pechino",
-      "caption": "PECHINO, 2023<br />"
+      "caption": "Istituto Italiano di Cultura, Pechino<br />"
     },
     "workHeading": {
       "src": "/content/1693999475352.jpeg",
@@ -116,7 +116,7 @@
   ],
   "languages": {
     "it": {
-      "nav_work": "Esperienze",
+      "nav_work": "Servizi ",
       "nav_services": "Servizi",
       "nav_about": "Profilo",
       "nav_cta": "Contattami",
