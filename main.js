@@ -50,13 +50,35 @@ document.querySelectorAll('.gallery-rail').forEach((rail) => {
   const track = rail.querySelector('.gallery-track');
   const prev = rail.querySelector('.gallery-prev');
   const next = rail.querySelector('.gallery-next');
+  const slides = track ? Array.from(track.children) : [];
+  let autoTimer;
+  let stoppedByUser = false;
   const move = (direction) => {
     if (!track) return;
     const amount = Math.max(track.clientWidth * .78, 280);
     track.scrollBy({ left: direction * amount, behavior: 'smooth' });
   };
-  prev?.addEventListener('click', () => move(-1));
-  next?.addEventListener('click', () => move(1));
+  const stopAuto = () => {
+    stoppedByUser = true;
+    if (autoTimer) clearInterval(autoTimer);
+  };
+  const moveManual = (direction) => {
+    stopAuto();
+    move(direction);
+  };
+  prev?.addEventListener('click', () => moveManual(-1));
+  next?.addEventListener('click', () => moveManual(1));
+  if (track && slides.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    autoTimer = setInterval(() => {
+      if (stoppedByUser) return;
+      const maxScroll = track.scrollWidth - track.clientWidth - 8;
+      if (track.scrollLeft >= maxScroll) {
+        track.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        move(1);
+      }
+    }, 5200);
+  }
 });
 
 const contactForm = document.getElementById('contact-form');
