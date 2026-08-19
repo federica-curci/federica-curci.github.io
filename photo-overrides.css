@@ -7,6 +7,10 @@
 .hero{align-items:start}
 .hero-copy{align-self:start}
 .hero-art{align-self:start;width:100%;height:clamp(640px,76vh,820px);min-height:0;max-height:820px}
+.brand{gap:.85rem}
+.brand-name i{display:inline-block;margin:0 .12rem;color:var(--orange);font-family:var(--serif);font-style:italic;font-weight:600}
+.hero-role{line-height:1.45}
+.language-picker{display:none}
 .case-image>img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.86) contrast(1.04)}
 .case-image:after{content:"";position:absolute;inset:0;background:linear-gradient(130deg,rgba(22,34,29,.32),transparent 45%);pointer-events:none}
 .image-place,.paper-mark,.stamp,.line-map{z-index:2}
@@ -26,7 +30,50 @@
 .work .section-heading h2{grid-column:auto}
 .work .section-heading-copy .eyebrow{margin-top:0}
 .work .section-heading-copy>p:last-child{max-width:31rem;font-size:1.03rem;margin:1.2rem 0 0}
+.about-copy{max-width:42rem;font-size:1.02rem}
+.about-copy p{margin:1.05rem 0 0}
+.about-copy strong{color:var(--orange);font-weight:700}
 .case-card{grid-template-columns:42% 1fr}
+
+.services{display:block}
+.services-copy{max-width:1100px;margin:0 auto}
+.service-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:3rem}
+.service-buttons a{min-height:190px;background:var(--lime);color:var(--ink);text-decoration:none;border:1px solid rgba(242,239,231,.25);padding:1.2rem;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s,background .2s}
+.service-buttons a:nth-child(2){background:var(--paper)}
+.service-buttons a:nth-child(3){background:var(--blue)}
+.service-buttons a:hover{transform:translateY(-5px);background:var(--orange)}
+.service-buttons span{font:500 .65rem var(--mono);letter-spacing:.08em}
+.service-buttons strong{font:500 clamp(1.7rem,2.7vw,3.2rem)/.95 var(--serif);letter-spacing:0}
+.service-gallery{padding-top:clamp(4rem,8vw,8rem);padding-bottom:clamp(4rem,8vw,8rem);display:grid;grid-template-columns:.85fr 1.15fr;gap:5vw;align-items:center;border-bottom:1px solid var(--line);overflow:hidden}
+.service-gallery-alt{background:rgba(155,212,219,.24)}
+.gallery-copy h2{font:500 clamp(2.8rem,5vw,5.8rem)/.95 var(--serif);margin:0;letter-spacing:0}
+.gallery-copy h2 em{color:var(--orange);font-style:italic}
+.gallery-rail{position:relative;overflow:hidden}
+.gallery-track{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding-bottom:.6rem}
+.gallery-track img{width:min(62vw,460px);aspect-ratio:1.35;object-fit:cover;scroll-snap-align:start;border:1px solid var(--line)}
+.gallery-nav{position:absolute;top:50%;z-index:3;width:2.75rem;height:2.75rem;border:1px solid var(--ink);background:var(--paper);color:var(--ink);font:500 2rem/1 var(--serif);display:grid;place-items:center;cursor:pointer;transform:translateY(-50%)}
+.gallery-nav:hover{background:var(--orange)}
+.gallery-prev{left:.6rem}
+.gallery-next{right:.6rem}
+.process-list p{max-width:22rem}
+.process-list li{min-height:430px;display:flex;flex-direction:column}
+.process-graphic{position:relative;margin-top:auto;width:min(100%,260px);height:145px;border:1px solid var(--ink);background:rgba(242,239,231,.42);overflow:hidden;isolation:isolate}
+.process-graphic:before{content:"";position:absolute;inset:0;background:radial-gradient(var(--ink) .7px,transparent .8px);background-size:10px 10px;opacity:.22}
+.process-graphic:after{content:"";position:absolute;left:1rem;right:1rem;bottom:1rem;height:1px;background:var(--ink);opacity:.65}
+.process-graphic i,.process-graphic b{position:absolute;display:block;font-style:normal}
+.process-graphic-talk i:first-child{left:1.1rem;top:1.2rem;width:5.2rem;height:3.1rem;background:var(--lime);border:1px solid var(--ink);border-radius:2rem 2rem 2rem .25rem}
+.process-graphic-talk i:nth-child(2){right:1.35rem;top:3.15rem;width:6rem;height:3.45rem;background:var(--paper);border:1px solid var(--ink);border-radius:2rem 2rem .25rem 2rem}
+.process-graphic-talk b{right:2.4rem;top:3.62rem;font:500 2.2rem/1 var(--serif);color:var(--orange)}
+.process-graphic-prepare i:first-child{left:1.25rem;top:1.35rem;width:6.4rem;height:4.5rem;background:var(--paper);border:1px solid var(--ink);box-shadow:.55rem .55rem 0 var(--lime)}
+.process-graphic-prepare i:first-child:before,.process-graphic-prepare i:first-child:after{content:"";position:absolute;left:.75rem;right:.75rem;height:1px;background:var(--ink)}
+.process-graphic-prepare i:first-child:before{top:1.25rem}
+.process-graphic-prepare i:first-child:after{top:2.35rem}
+.process-graphic-prepare i:nth-child(2){right:1.3rem;top:1.55rem;width:4.8rem;height:4.8rem;border:1px solid var(--ink);border-radius:50%;background:var(--blue)}
+.process-graphic-prepare b{right:2.25rem;top:2.45rem;width:2.9rem;height:2.9rem;border:1px solid var(--ink);border-radius:50%;background:var(--orange)}
+.process-graphic-live i:first-child{left:1.25rem;top:1.15rem;width:5.4rem;height:6.2rem;background:var(--orange);border:1px solid var(--ink);border-radius:3rem 3rem 0 0}
+.process-graphic-live i:nth-child(2){right:1.35rem;top:1.8rem;width:5.6rem;height:4rem;border:1px solid var(--ink);background:var(--lime)}
+.process-graphic-live i:nth-child(2):before{content:"";position:absolute;left:50%;top:100%;width:1px;height:2rem;background:var(--ink)}
+.process-graphic-live b{right:2.85rem;top:2.15rem;font:500 2.4rem/1 "Noto Serif SC",serif;color:var(--ink)}
 
 /* Static-site contact form: no backend, just a prepared email. */
 .contact-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(320px,430px);gap:clamp(2rem,7vw,7rem);align-items:center;flex:1;width:100%}
@@ -46,6 +93,12 @@
   .work .section-heading{display:block}
   .work-heading-photo{min-height:245px;margin:0 0 2.2rem}
   .case-card{grid-template-columns:1fr}
+  .service-buttons{grid-template-columns:1fr}
+  .service-gallery{display:block}
+  .gallery-rail{margin-top:2rem}
+  .gallery-track img{width:82vw}
+  .process-list li{min-height:0}
+  .process-graphic{margin-top:1.4rem;width:100%;height:132px}
   .contact-grid{display:block}
   .contact-form{margin-top:2.2rem}
 }
