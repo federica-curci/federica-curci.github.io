@@ -57,6 +57,12 @@ const renderContactChannels = (content) => {
   `;
 };
 
+const markInterpretationPullquotes = () => {
+  document.querySelectorAll('.interpretation-copy p').forEach((paragraph) => {
+    if (paragraph.querySelector('strong em')) paragraph.classList.add('interpretation-pullquote');
+  });
+};
+
 const applyCmsContent = (content) => {
   if (!content || typeof content !== 'object') return;
   const it = content.languages?.it || {};
@@ -180,6 +186,7 @@ const applyCmsContent = (content) => {
   }
   setHtml('[data-i18n="footer"]', it.footer);
   renderContactChannels(content);
+  markInterpretationPullquotes();
 };
 
 fetch('content/site.json')
