@@ -3,7 +3,10 @@
     "email": "federicacurci9@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federica-curci",
     "website": "https://federica-curci.github.io/",
-    "linksIntro": "Italian, English and Chinese Interpreter and Translator in Milan, available across Europe, China and remotely."
+    "linksIntro": "Italian, English and Chinese Interpreter and Translator in Milan, available across Europe, China and remotely.",
+    "phone": "+39 340 657 3679",
+    "phoneHref": "tel:+393406573679",
+    "whatsapp": "https://wa.me/393406573679"
   },
   "images": {
     "hero": {
@@ -27,6 +30,14 @@
     "caseThree": {
       "src": "/content/Dilmah 2.jpeg",
       "alt": "Federica con il gruppo di una fiera professionale in Cina"
+    },
+    "translation": {
+      "src": "/content/4.jpg",
+      "alt": "Documenti tradotti e materiali editoriali"
+    },
+    "consulting": {
+      "src": "/content/5.png",
+      "alt": "Consulenza per business con la Cina"
     }
   },
   "cases": [
@@ -121,22 +132,22 @@
       "nav_about": "Formazione",
       "nav_cta": "Contatti",
       "hero_eyebrow": "Interprete e Traduttrice · Milano",
-      "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole.</em>",
-      "hero_intro": "Ciao! Sono Federica.  Interpreto e traduco tra italiano, inglese e cinese, perché le conversazioni importanti meritano più di una traduzione parola per parola. ",
+      "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole</em>",
+      "hero_intro": "Ciao! Sono Federica. Interpreto e traduco tra <strong>italiano</strong>, <strong>inglese</strong> e <strong>cinese</strong>, perché le conversazioni importanti meritano più di una traduzione parola per parola.",
       "hero_cta": "Raccontami il tuo progetto <span>↗</span>",
       "hero_link": "Scopri il mio lavoro <span>↓</span>",
       "hero_foot": "Interpretariato · Traduzione · Consulenza linguistica",
       "work_title": "Perché scegliere <br /><em>me?</em>",
-      "work_intro": "Perché per me l'interpretariato è prima di tutto una missione: il tuo successo è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione. \nNel mio lavoro mi impegno a offrire qualità e professionalità: dal 2026 sono Socia Aggregata AITI \nDopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a Pechino nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e Shanghai nel 2025-2026 in una trading company, acquisendo esperienza in marketing, vendite e brand management. \n ",
+      "work_intro": "Perché per me l'interpretariato è prima di tutto una missione: il tuo successo è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione. \nNel mio lavoro mi impegno a offrire qualità e professionalità: dal 2026 sono Socia Aggregata AITI \nDopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.",
       "case_one_type": "TRATTATIVA B2B: fiere, incontri commerciali, negoziazioni. ",
-      "case_one_title": "Concentrati sui numeri, io mi occupo di trasferire il tuo messaggio al meglio e nel pieno rispetto dell'etichetta della cultura straniera. Ti supporto nei momenti di tensione e ti evito di perdere la \"faccia\" o 面子, come direbbero i Cinesi. ",
-      "case_one_text": "La mia esperienza come unica dipendente straniera in un'azienda cinese mi ha insegnato molto di più della lingua, ho compreso e interiorizzato la logica del business cinese. Perché senza il 白酒, non c'è nessun affare. ",
-      "case_two_type": "CONSECUTIVA: eventi pubblici, interviste, conferenze stampa, visite aziendali. ",
-      "case_two_title": "Se l'oratore ha con sé una presentazione ppt, non può mancare l'interprete a restituire con fluidità lunghi interventi attraverso la \"presa di appunti\"",
-      "case_two_text": "L'esperienza all'Istituto Italiano di Cultura dell'Ambasciata Italiana in Cina con i sui eventi culturali italiani per il pubblico cinese è stata l'occasione migliore per sfruttare questa modalità. \nCosì come le visite agli stabilimenti, sia in Italia, che in Cina e persino il montaggio di un macchinario di stampa rotocalco! ",
-      "case_three_type": "SIMULTANEA: eventi istituzionali, conferenze, convegni. Per riunioni riservate o con un unico ospite straniero: SUSSURATA o CHUCHOTAGE. . ",
-      "case_three_title": "Una cabina insonorizzata e un impianto audio funzionante: è tutto ciò  che serve all'interprete per arrivare a un pubblico vasto. ",
-      "case_three_text": "In occasione di un ciclo di conferenze ",
+      "case_one_title": "<strong><em>Concentrati sui numeri, io mi occupo di trasferire il tuo messaggio nel pieno rispetto dell'etichetta straniera.</em></strong>",
+      "case_one_text": "La mia esperienza come <strong>unica dipendente straniera</strong> in un'<strong>azienda cinese</strong> mi ha insegnato molto di più della lingua commerciale. Lavorando nel <strong>marketing</strong>, <strong>vendite</strong> e gestendo <strong>brand italiani in Cina</strong>, ho interiorizzato la <strong>logica del business e dei consumatori cinesi</strong>, il meccanismo della <strong>contrattazione</strong> e come superare i momenti di stallo.",
+      "case_two_type": "Eventi pubblici, interviste, visite aziendali, corsi o demo.",
+      "case_two_title": "<strong><em>Quando l’oratore si dilunga, con la presa di note, non perderò nessun passaggio</em>.</strong>",
+      "case_two_text": "Il ricco calendario di <strong>eventi culturali</strong>, organizzato dall'<strong>Istituto Italiano di Cultura</strong> dell'<strong>Ambasciata Italiana in Cina</strong>, ha rappresentato l’occasione perfetta per l’interpretazione consecutiva. Così come le <strong>demo culinarie</strong> che ho presentato e tradotto per tutta la Cina, promuovendo la famosa cucina italiana.\nQuesta modalità si adatta anche a <strong>visite</strong> a stabilimenti e persino…al <strong>montaggio</strong> di un macchinario di stampa rotocalco!",
+      "case_three_type": "Simultanea: conferenze, eventi istituzionali. Per riunioni riservate o con un unico ospite straniero: sussurrata o chuchotage.",
+      "case_three_title": "<strong><em>Una cabina insonorizzata e un impianto audio funzionante: è tutto ciò che serve per arrivare a un ampio pubblico</em></strong>",
+      "case_three_text": "In occasione di un ciclo di <strong>conferenze</strong> tenute da <strong>ambasciatori accreditati</strong> presso la Santa Sede, ho lavorato con le mie compagne di cabina nella combinazione italiano-inglese.\nIn Cina, in una cena organizzata da un <strong>cliente cinese</strong> per i suoi <strong>partner italiani</strong>, ho invece utilizzato la modalità <strong>chuchotage</strong>, sussurrando loro in tempo reale la traduzione.",
       "services_eyebrow": "Il mio mantra",
       "services_title": "Capire prima.<br /><em>Parlare bene,</em> dopo.",
       "service_one_title": "Interpretariato",
@@ -152,24 +163,24 @@
       "bio_two": "Da allora ho studiato e lavorato tra Italia e Cina. Dopo la Laurea Magistrale in Interpretariato e Traduzione presso UNINT, Pechino e Shanghai mi hanno insegnato una cosa semplice: conoscere le lingue è essenziale, ma sapere ascoltare le persone lo è ancora di più.",
       "availability": "Europa · Cina · Remoto",
       "about_cta": "Se hai un progetto, scrivimi <span>↗</span>",
-      "process_eyebrow": "Un processo semplice",
-      "process_title": "Dalla prima email<br />alla <em>perfetta intesa.</em>",
-      "process_one_title": "Raccontami",
-      "process_one_text": "Date, lingue, luogo o piattaforma, formato e obiettivo.",
-      "process_two_title": "Preparo",
-      "process_two_text": "Definisco la modalità e raccolgo il materiale utile.",
+      "process_eyebrow": "Come lavoro?",
+      "process_title": "Dalla prima email<br />al giorno <em>dell'evento.</em>",
+      "process_one_title": "Conosciamoci",
+      "process_one_text": "Parlami del tuo <strong>progetto</strong> e della tua <strong>esigenza</strong>, ti consiglierò la <strong>modalità</strong> che si adatta al tuo obiettivo. Ti fornirò un <strong>preventivo</strong> personalizzato e <strong>senza impegno</strong>.",
+      "process_two_title": "Mi preparo",
+      "process_two_text": "Dopo aver concordato il servizio e aver definito i dettagli, comincia il mio <strong>studio</strong>. Ogni incarico comporta per me una fase di <strong>preparazione</strong> dettagliata, per offrirti la migliore <strong>qualità</strong> il giorno dell’evento. Ti chiederò di condividere <strong>materiali preparatori</strong> a cui integrerò le mie ricerche. Non temere per la tua <strong>privacy</strong>, garantisco la massima riservatezza e possiamo firmare un NDA.",
       "process_three_title": "Interpreto",
-      "process_three_text": "Un supporto presente, preciso e riservato, quando conta.",
-      "faq_title": "Domande utili,<br /><em>risposte chiare.</em>",
-      "faq_one_q": "Quali combinazioni linguistiche offri?<b>+</b>",
-      "faq_one_a": "Italiano ↔ Cinese e Italiano ↔ Inglese. Per ogni progetto ti consiglierò direzione linguistica e modalità più adatte.",
+      "process_three_text": "Il giorno dell’evento sarò al tuo fianco per <strong>supportarti</strong> e risolvere qualsiasi imprevisto.",
+      "faq_title": "Domande <em>frequenti.</em>",
+      "faq_one_q": "",
+      "faq_one_a": "",
       "faq_two_q": "Lavori anche fuori Milano?<b>+</b>",
       "faq_two_a": "Sì. Sono basata a Milano e disponibile per incarichi in Europa, Cina e da remoto.",
       "faq_three_q": "Cosa serve per richiedere un preventivo?<b>+</b>",
-      "faq_three_a": "Indicami date, sede o piattaforma, lingue, formato dell'evento e materiale disponibile. Ti risponderò con una proposta mirata.",
-      "contact_eyebrow": "Disponibile per nuove collaborazioni",
-      "contact_title": "Scrivimi,<br />senza <em>fretta.</em>",
-      "contact_note": "Dimmi cosa hai in mente, anche in poche righe. Ti dirò il modo migliore per iniziare.",
+      "faq_three_a": "Indicami date, sede o piattaforma, lingue, formato dell'evento. Ti risponderò con una proposta mirata entro 24 ore.",
+      "contact_eyebrow": "",
+      "contact_title": "Scrivimi",
+      "contact_note": "Dimmi cosa hai in mente, anche in poche righe.",
       "form_name": "Nome",
       "form_email": "Email",
       "form_project": "Progetto",
@@ -305,6 +316,227 @@
       "form_submit": "发送请求 <span>↗</span>",
       "form_note": "您的消息会直接通过电子邮件发送。",
       "footer": "口译 · 笔译 · 跨文化沟通"
+    }
+  },
+  "galleries": {
+    "interpretazione_b2b": [
+      {
+        "src": "/content/1_1.jpeg",
+        "alt": "Salone del Mobile Milano 2026",
+        "caption": "Salone del Mobile Milano 2026"
+      },
+      {
+        "src": "/content/1_2.png",
+        "alt": "Salone del Mobile Milano 2026",
+        "caption": "Salone del Mobile Milano 2026"
+      },
+      {
+        "src": "/content/1_3.png",
+        "alt": "Cosmoprof Bologna 2026",
+        "caption": "Cosmoprof Bologna 2026"
+      },
+      {
+        "src": "/content/1_4.png",
+        "alt": "Cosmoprof Bologna 2026",
+        "caption": "Cosmoprof Bologna 2026"
+      },
+      {
+        "src": "/content/1_5.jpeg",
+        "alt": "FHC Shanghai 2025",
+        "caption": "FHC Shanghai 2025"
+      },
+      {
+        "src": "/content/1_6.jpeg",
+        "alt": "Hotelex Shanghai 2025",
+        "caption": "Hotelex Shanghai 2025"
+      },
+      {
+        "src": "/content/1_7.png",
+        "alt": "Dilmah Shenzhen 2025",
+        "caption": "Dilmah Shenzhen 2025"
+      },
+      {
+        "src": "/content/1_8.jpeg",
+        "alt": "Sigep 2025",
+        "caption": "Sigep 2025"
+      },
+      {
+        "src": "/content/1_9.png",
+        "alt": "Cibus Parma 2024",
+        "caption": "Cibus Parma 2024"
+      },
+      {
+        "src": "/content/1_10.png",
+        "alt": "Salone del Mobile Milano 2024",
+        "caption": "Salone del Mobile Milano 2024"
+      }
+    ],
+    "interpretazione_consecutiva": [
+      {
+        "src": "/content/2_2.jpeg",
+        "alt": "Montaggio macchinario di stampa rotocalco, Erba, 2026",
+        "caption": "Montaggio macchinario di stampa rotocalco, Erba, 2026"
+      },
+      {
+        "src": "/content/2_1.jpeg",
+        "alt": "Testa di stampa",
+        "caption": "Testa di stampa"
+      },
+      {
+        "src": "/content/2_3.jpeg",
+        "alt": "Quadro elettrico principale",
+        "caption": "Quadro elettrico principale"
+      },
+      {
+        "src": "/content/2_4.jpeg",
+        "alt": "Cooking Demo Hangzhou 2025 con il Brand Ambassador della Cirio e presidente FIC Cina",
+        "caption": "Cooking Demo Hangzhou 2025 con il Brand Ambassador della Cirio e presidente FIC Cina"
+      },
+      {
+        "src": "/content/2_5.jpg",
+        "alt": "Cooking Demo Zhengzhou 2025",
+        "caption": "Cooking Demo Zhengzhou 2025"
+      },
+      {
+        "src": "/content/2_6.jpeg",
+        "alt": "Pizza Demo Molino Dallagiovanna, Shanghai, 2025",
+        "caption": "Pizza Demo Molino Dallagiovanna, Shanghai, 2025"
+      },
+      {
+        "src": "/content/2_7.png",
+        "alt": "Cooking Demo, Fuzhou, 2025",
+        "caption": "Cooking Demo, Fuzhou, 2025"
+      },
+      {
+        "src": "/content/2_8.jpeg",
+        "alt": "Visita a uno stabilimento produttivo di pizze surgelate, Shandong, 2025",
+        "caption": "Visita a uno stabilimento produttivo di pizze surgelate, Shandong, 2025"
+      },
+      {
+        "src": "/content/2_9.jpeg",
+        "alt": "Linea produttiva stabilimento",
+        "caption": "Linea produttiva stabilimento"
+      },
+      {
+        "src": "/content/2_10.jpeg",
+        "alt": "Visita al reparto R&D di Sam’s, Nanchino, 2025",
+        "caption": "Visita al reparto R&D di Sam’s, Nanchino, 2025"
+      },
+      {
+        "src": "/content/2_11.jpeg",
+        "alt": "Visita allo stabilimento della Molisana, Molise, 2024",
+        "caption": "Visita allo stabilimento della Molisana, Molise, 2024"
+      },
+      {
+        "src": "/content/2_12.jpeg",
+        "alt": "Eventi all’Istituto Italiano di Cultura, Pechino, 2023",
+        "caption": "Eventi all’Istituto Italiano di Cultura, Pechino, 2023"
+      },
+      {
+        "src": "/content/2_13.jpeg",
+        "alt": "Pechino 2023",
+        "caption": "Pechino 2023"
+      },
+      {
+        "src": "/content/2_14.jpg",
+        "alt": "Pechino 2023",
+        "caption": "Pechino 2023"
+      }
+    ],
+    "interpretazione_simultanea": [
+      {
+        "src": "/content/3_1.jpg",
+        "alt": "Simultanea per l’associazione Carità Politica, 2023",
+        "caption": "Simultanea per l’associazione “Carità Politica”, 2023"
+      },
+      {
+        "src": "/content/3_2.jpg",
+        "alt": "Chuchotage tra cliente cinese e partner italiani, 2025",
+        "caption": "Chuchotage tra cliente cinese e partner italiani, 2025"
+      }
+    ]
+  },
+  "sections": {
+    "translation": {
+      "title": "Traduzioni ragionate<br /><em>e naturali.</em>",
+      "image": {
+        "src": "/content/4.jpg",
+        "alt": "Documenti tradotti e materiali editoriali"
+      },
+      "paragraphs": [
+        "Le <strong>traduzioni</strong> che offro sono realizzate <strong>da me</strong>, senza l’utilizzo di nessuna IA, per garantire la <strong>qualità</strong> e la <strong>riservatezza</strong> dei tuoi dati.",
+        "Per progetti più ampi, dove è necessario garantire <strong>coerenza terminologica</strong>, ti proporrò l’utilizzo di <strong>CAT Tools</strong>.",
+        "Tra la tipologia di documenti che ho già tradotto rientrano <strong>casellari giudiziali</strong> e <strong>diploma di laurea</strong> per clienti privati, <strong>ordinanze</strong> per il Tribunale di Trani, <strong>articoli</strong> e <strong>saggi</strong> pubblicati sulla rivista culturale “Cina in Italia”."
+      ]
+    },
+    "consulting": {
+      "title": "Una visione<br /><em>dall'interno.</em>",
+      "image": {
+        "src": "/content/5.png",
+        "alt": "Consulenza per business con la Cina"
+      },
+      "paragraphs": [
+        "Se vuoi aprire un business con la Cina, sarò felice di guidarti in questo complesso processo.",
+        "Il <strong>mercato cinese</strong> è in continua evoluzione ed è tanto <strong>vasto</strong> quanto <strong>competitivo</strong>. Per questo, la ricerca del <strong>giusto partner commerciale</strong>, con una visione strategica a te affine, è di fondamentale importanza.",
+        "Aver lavorato con importanti <strong>brand italiani</strong> in Cina, occupandomi a tempo pieno della loro <strong>gestione</strong> e <strong>promozione</strong> su tutto il territorio cinese, mi ha fornito una rete di <strong>contatti locali</strong> e gli <strong>strumenti</strong> necessari a <strong>guidare</strong> l’espansione della tua azienda."
+      ]
+    },
+    "formation": {
+      "title": "Studio, pratica,<br /><em>aggiornamento.</em>",
+      "lead": "In un mondo in continuo cambiamento, la parola d’ordine è <strong>aggiornamento</strong>!",
+      "items": [
+        {
+          "title": "Ca’ Foscari",
+          "paragraphs": [
+            "Laurea Triennale in <strong>Lingue, Culture e Società dell’Asia e dell’Africa Mediterranea</strong> presso l’<strong>Università Ca’ Foscari</strong>, la più rinomata e prestigiosa università italiana in lingue e culture orientali.",
+            "Attraverso le lezioni dei più grandi sinologi italiani, oltre alla <strong>lingua cinese</strong>, mi sono formata in <strong>arte</strong>, <strong>letteratura</strong>, <strong>storia</strong>, <strong>filosofia</strong> e <strong>società della Cina</strong>."
+          ]
+        },
+        {
+          "title": "UNINT Roma",
+          "paragraphs": [
+            "Ho poi conseguito la mia Laurea Magistrale in <strong>Interpretariato e Traduzione</strong> presso l'<strong>UNINT</strong> di Roma, appartenente alla <strong>CIUTI</strong> (Conférence internationale permanente d’instituts universitaires de traducteurs et interprètes).",
+            "La <strong>CIUTI</strong> è l'associazione internazionale di riferimento per gli istituti universitari con i <strong>migliori</strong> corsi di laurea in <strong>traduzione</strong> e <strong>interpretazione</strong>."
+          ]
+        },
+        {
+          "title": "Formazione settoriale continua",
+          "paragraphs": [
+            "Nonostante abbia concluso gli studi nel 2024, la mia formazione è in continuo divenire. Oltre alla <strong>formazione</strong> offerta da <strong>AITI</strong>, l’Associazione Italiana Traduttori e Interpreti, frequento abitualmente <strong>seminari</strong> sull’<strong>evoluzione</strong> del mio settore con l’<strong>IA</strong>, corsi specializzanti in <strong>marketing</strong> e <strong>social media</strong>."
+          ]
+        },
+        {
+          "title": "Europa e Cina",
+          "paragraphs": [
+            "Avendo lavorato in una <strong>Think Tank</strong> internazionale, possiedo una <strong>formazione</strong> anche nell’ambito delle <strong>relazioni politiche</strong> e <strong>commerciali</strong> tra <strong>Europa</strong> e <strong>Cina</strong>, su cui continuo a rimanere <strong>aggiornata</strong>."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "title": "Dalla prima email<br />al giorno <em>dell'evento.</em>",
+      "steps": [
+        {
+          "title": "Conosciamoci",
+          "text": "Parlami del tuo <strong>progetto</strong> e della tua <strong>esigenza</strong>, ti consiglierò la <strong>modalità</strong> che si adatta al tuo obiettivo. Ti fornirò un <strong>preventivo</strong> personalizzato e <strong>senza impegno</strong>."
+        },
+        {
+          "title": "Mi preparo",
+          "text": "Dopo aver concordato il servizio e aver definito i dettagli, comincia il mio <strong>studio</strong>. Ogni incarico comporta per me una fase di <strong>preparazione</strong> dettagliata, per offrirti la migliore <strong>qualità</strong> il giorno dell’evento. Ti chiederò di condividere <strong>materiali preparatori</strong> a cui integrerò le mie ricerche. Non temere per la tua <strong>privacy</strong>, garantisco la massima riservatezza e possiamo firmare un NDA."
+        },
+        {
+          "title": "Interpreto",
+          "text": "Il giorno dell’evento sarò al tuo fianco per <strong>supportarti</strong> e risolvere qualsiasi imprevisto."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Scrivimi",
+      "note": "Dimmi cosa hai in mente, anche in poche righe.",
+      "email": "federicacurci9@gmail.com",
+      "phone": "+39 340 657 3679",
+      "phoneHref": "tel:+393406573679",
+      "whatsapp": "https://wa.me/393406573679"
     }
   }
 }

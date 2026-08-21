@@ -12,7 +12,7 @@ const applyCmsContent = (content) => {
   if (content.profile?.email) contactState.email = content.profile.email;
   document.querySelectorAll('.contact-email').forEach((link) => {
     link.href = `mailto:${contactState.email}`;
-    link.innerHTML = `${contactState.email} <span>↗</span>`;
+    link.innerHTML = `<span class="contact-icon">✉</span><span>${contactState.email}</span><span class="contact-arrow">↗</span>`;
   });
   if (content.profile?.linkedin) {
     document.querySelectorAll('a[href*="linkedin.com/in/federica-curci"]').forEach((link) => {
