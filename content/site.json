@@ -10,14 +10,13 @@
   },
   "images": {
     "hero": {
-      "src": "/content/1693999477355 (1).jpeg",
+      "src": "/content/main.jpeg",
       "alt": "Federica Curci davanti all'Istituto Italiano di Cultura a Pechino",
       "caption": "Mostra \"Il trittico del Centenario\", Pechino<br />"
     },
     "workHeading": {
-      "src": "/content/1693999475352.jpeg",
-      "alt": "Pubblico durante un evento culturale italiano a Pechino",
-      "caption": "Istituto Italiano di Cultura, PechinoI<br />PECHINO"
+      "src": "/content/hero.jpg",
+      "alt": "Ritratto professionale di Federica Curci"
     },
     "caseOne": {
       "src": "/content/1693999477355 (1).jpeg",
