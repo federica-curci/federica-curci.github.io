@@ -1,12 +1,12 @@
 {
   "profile": {
     "email": "federicacurci9@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/federica-curci",
-    "website": "https://federica-curci.github.io/",
-    "linksIntro": "Interprete e traduttrice italiano, inglese e cinese a Milano, disponibile in Europa, Cina e da remoto.",
     "phone": "+39 340 657 3679",
     "phoneHref": "tel:+393406573679",
-    "whatsapp": "https://wa.me/393406573679"
+    "whatsapp": "https://wa.me/393406573679",
+    "linkedin": "https://www.linkedin.com/in/federica-curci",
+    "website": "https://federica-curci.github.io/",
+    "linksIntro": "Interprete e traduttrice italiano, inglese e cinese a Milano, disponibile in Europa, Cina e da remoto."
   },
   "images": {
     "hero": {
@@ -58,7 +58,7 @@
       },
       {
         "src": "/content/1_8.jpeg",
-        "alt": "Sigep 2025",
+        "alt": "Cibus Parma 2024",
         "caption": "Sigep 2025"
       },
       {
@@ -95,8 +95,8 @@
       },
       {
         "src": "/content/2_5.jpg",
-        "alt": "Cooking Demo Zhengzhou 2025",
-        "caption": "Cooking Demo Zhengzhou 2025"
+        "alt": "Cooking Demo, Zhengzhou, 2025",
+        "caption": "Cooking Demo, Zhengzhou, 2025"
       },
       {
         "src": "/content/2_6.jpeg",
@@ -157,6 +157,27 @@
       }
     ]
   },
+  "languages": {
+    "it": {
+      "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole</em>",
+      "hero_intro": "Ciao! Sono Federica. Interpreto e traduco tra <strong>italiano</strong>, <strong>inglese</strong> e <strong>cinese</strong>, perché le conversazioni importanti meritano più di una traduzione parola per parola.",
+      "hero_cta": "Raccontami il tuo progetto <span>↗</span>",
+      "hero_link": "Scopri il mio lavoro <span>↓</span>",
+      "work_eyebrow": "Su di me",
+      "work_title": "Perché scegliere <br /><em>me?</em>",
+      "work_intro": "<p>Perché per me l'interpretariato è prima di tutto una <strong>missione</strong>: il tuo <strong>successo</strong> è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione.</p><p>Nel mio lavoro mi impegno a offrire <strong>qualità</strong> e <strong>professionalità</strong>: dal 2026 sono Socia Aggregata <strong>AITI</strong>, la rinomata Associazione Italiana Traduttori e Interpreti.</p><p>Dopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.</p>",
+      "case_one_type": "Fiere, incontri commerciali",
+      "case_one_title": "<strong><em>Concentrati sui numeri, io mi occupo di trasferire il tuo messaggio nel pieno rispetto dell'etichetta straniera.</em></strong>",
+      "case_one_text": "La mia esperienza come <strong>unica dipendente straniera</strong> in un'<strong>azienda cinese</strong> mi ha insegnato molto di più della lingua commerciale. Lavorando nel <strong>marketing</strong>, <strong>vendite</strong> e gestendo <strong>brand italiani in Cina</strong>, ho interiorizzato la <strong>logica del business e dei consumatori cinesi</strong>, il meccanismo della <strong>contrattazione</strong> e come superare i momenti di stallo.",
+      "case_two_type": "Eventi pubblici, interviste, visite aziendali, corsi o demo.",
+      "case_two_title": "<strong><em>Quando l’oratore si dilunga, con la presa di note, non perderò nessun passaggio</em>.</strong>",
+      "case_two_text": "Il ricco calendario di <strong>eventi culturali</strong>, organizzato dall'<strong>Istituto Italiano di Cultura</strong> dell'<strong>Ambasciata Italiana in Cina</strong>, ha rappresentato l’occasione perfetta per l’interpretazione consecutiva. Così come le <strong>demo culinarie</strong> che ho presentato e tradotto per tutta la Cina, promuovendo la famosa cucina italiana.\nL'interpretazione consecutiva si adatta anche a <strong>visite</strong> a stabilimenti e persino…al <strong>montaggio</strong> di un macchinario di stampa rotocalco!",
+      "case_three_type": "Simultanea: conferenze, eventi istituzionali. Per riunioni riservate o con un unico ospite straniero: sussurrata o chuchotage.",
+      "case_three_title": "<strong><em>Una cabina insonorizzata e un impianto audio funzionante: è tutto ciò che serve per arrivare a un ampio pubblico</em></strong>",
+      "case_three_text": "In occasione di un ciclo di <strong>conferenze</strong> tenute da <strong>ambasciatori accreditati</strong> presso la Santa Sede, ho lavorato con le mie compagne di cabina nella combinazione italiano-inglese.\nIn Cina, in una cena organizzata da un <strong>cliente cinese</strong> per i suoi <strong>partner italiani</strong>, ho invece utilizzato la modalità <strong>chuchotage</strong>, sussurrando loro in tempo reale la traduzione.",
+      "footer": "Interpretariato Traduzione Consulenza"
+    }
+  },
   "sections": {
     "translation": {
       "title": "Traduzioni ragionate<br /><em>e naturali.</em>",
@@ -177,7 +198,6 @@
         "alt": "Consulenza per business con la Cina"
       },
       "paragraphs": [
-        "Se vuoi aprire un business con la Cina, sarò felice di guidarti in questo complesso processo.",
         "Il <strong>mercato cinese</strong> è in continua evoluzione ed è tanto <strong>vasto</strong> quanto <strong>competitivo</strong>. Per questo, la ricerca del <strong>giusto partner commerciale</strong>, con una visione strategica a te affine, è di fondamentale importanza.",
         "Aver lavorato con importanti <strong>brand italiani</strong> in Cina, occupandomi a tempo pieno della loro <strong>gestione</strong> e <strong>promozione</strong> su tutto il territorio cinese, mi ha fornito una rete di <strong>contatti locali</strong> e gli <strong>strumenti</strong> necessari a <strong>guidare</strong> l’espansione della tua azienda."
       ]
@@ -255,34 +275,15 @@
         },
         {
           "question": "Cosa serve per richiedere un preventivo?",
-          "answer": "Indicami date, sede o piattaforma, lingue, formato dell'evento. Ti risponderò con una proposta mirata entro 24 ore."
+          "answer": "Indicami date, sede o piattaforma, lingue, formato dell'evento. Ti risponderò con una proposta mirata entro 24 ore.",
+          "open": false
         },
         {
           "question": "Con quanto anticipo devo contattarti?",
-          "answer": "Non appena hai la conferma dell’evento, scrivimi pure. Ma non preoccuparti, accetto richieste anche a stretto giro. Qualora non fossi disponibile per la tua data, ti consiglierò un* colleg* fidat*."
+          "answer": "Non appena hai la conferma dell’evento, scrivimi pure. Ma non preoccuparti, accetto richieste anche a stretto giro. Qualora non fossi disponibile per la tua data, ti consiglierò un* colleg* fidat*.",
+          "open": false
         }
       ]
-    }
-  },
-  "languages": {
-    "it": {
-      "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole</em>",
-      "hero_intro": "Ciao! Sono Federica. Interpreto e traduco tra <strong>italiano</strong>, <strong>inglese</strong> e <strong>cinese</strong>, perché le conversazioni importanti meritano più di una traduzione parola per parola.",
-      "hero_cta": "Raccontami il tuo progetto <span>↗</span>",
-      "hero_link": "Scopri il mio lavoro <span>↓</span>",
-      "work_eyebrow": "Su di me",
-      "work_title": "Perché scegliere <br /><em>me?</em>",
-      "work_intro": "<p>Perché per me l'interpretariato è prima di tutto una <strong>missione</strong>: il tuo <strong>successo</strong> è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione.</p><p>Nel mio lavoro mi impegno a offrire <strong>qualità</strong> e <strong>professionalità</strong>: dal 2026 sono Socia Aggregata <strong>AITI</strong>, la rinomata Associazione Italiana Traduttori e Interpreti.</p><p>Dopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.</p>",
-      "case_one_type": "Fiere, incontri commerciali",
-      "case_one_title": "<strong><em>Concentrati sui numeri, io mi occupo di trasferire il tuo messaggio nel pieno rispetto dell'etichetta straniera.</em></strong>",
-      "case_one_text": "La mia esperienza come <strong>unica dipendente straniera</strong> in un'<strong>azienda cinese</strong> mi ha insegnato molto di più della lingua commerciale. Lavorando nel <strong>marketing</strong>, <strong>vendite</strong> e gestendo <strong>brand italiani in Cina</strong>, ho interiorizzato la <strong>logica del business e dei consumatori cinesi</strong>, il meccanismo della <strong>contrattazione</strong> e come superare i momenti di stallo.",
-      "case_two_type": "Eventi pubblici, interviste, visite aziendali, corsi o demo.",
-      "case_two_title": "<strong><em>Quando l’oratore si dilunga, con la presa di note, non perderò nessun passaggio</em>.</strong>",
-      "case_two_text": "Il ricco calendario di <strong>eventi culturali</strong>, organizzato dall'<strong>Istituto Italiano di Cultura</strong> dell'<strong>Ambasciata Italiana in Cina</strong>, ha rappresentato l’occasione perfetta per l’interpretazione consecutiva. Così come le <strong>demo culinarie</strong> che ho presentato e tradotto per tutta la Cina, promuovendo la famosa cucina italiana.\nQuesta modalità si adatta anche a <strong>visite</strong> a stabilimenti e persino…al <strong>montaggio</strong> di un macchinario di stampa rotocalco!",
-      "case_three_type": "Simultanea: conferenze, eventi istituzionali. Per riunioni riservate o con un unico ospite straniero: sussurrata o chuchotage.",
-      "case_three_title": "<strong><em>Una cabina insonorizzata e un impianto audio funzionante: è tutto ciò che serve per arrivare a un ampio pubblico</em></strong>",
-      "case_three_text": "In occasione di un ciclo di <strong>conferenze</strong> tenute da <strong>ambasciatori accreditati</strong> presso la Santa Sede, ho lavorato con le mie compagne di cabina nella combinazione italiano-inglese.\nIn Cina, in una cena organizzata da un <strong>cliente cinese</strong> per i suoi <strong>partner italiani</strong>, ho invece utilizzato la modalità <strong>chuchotage</strong>, sussurrando loro in tempo reale la traduzione.",
-      "footer": "Interpretariato Traduzione Consulenza"
     }
   }
 }
