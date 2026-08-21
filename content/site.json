@@ -137,8 +137,8 @@
       "hero_link": "Scopri il mio lavoro <span>↓</span>",
       "hero_foot": "Interpretariato · Traduzione · Consulenza linguistica",
       "work_title": "Perché scegliere <br /><em>me?</em>",
-      "work_intro": "Perché per me l'interpretariato è prima di tutto una missione: il tuo successo è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione. \nNel mio lavoro mi impegno a offrire qualità e professionalità: dal 2026 sono Socia Aggregata AITI \nDopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.",
-      "case_one_type": "TRATTATIVA B2B: fiere, incontri commerciali, negoziazioni. ",
+      "work_intro": "<p>Perché per me l'interpretariato è prima di tutto una <strong>missione</strong>: il tuo <strong>successo</strong> è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione.</p><p>Nel mio lavoro mi impegno a offrire <strong>qualità</strong> e <strong>professionalità</strong>: dal 2026 sono Socia Aggregata <strong>AITI</strong>, la rinomata Associazione Italiana Traduttori e Interpreti.</p><p>Dopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.</p>",
+      "case_one_type": "Fiere, incontri commerciali",
       "case_one_title": "<strong><em>Concentrati sui numeri, io mi occupo di trasferire il tuo messaggio nel pieno rispetto dell'etichetta straniera.</em></strong>",
       "case_one_text": "La mia esperienza come <strong>unica dipendente straniera</strong> in un'<strong>azienda cinese</strong> mi ha insegnato molto di più della lingua commerciale. Lavorando nel <strong>marketing</strong>, <strong>vendite</strong> e gestendo <strong>brand italiani in Cina</strong>, ho interiorizzato la <strong>logica del business e dei consumatori cinesi</strong>, il meccanismo della <strong>contrattazione</strong> e come superare i momenti di stallo.",
       "case_two_type": "Eventi pubblici, interviste, visite aziendali, corsi o demo.",
@@ -186,7 +186,7 @@
       "form_project_placeholder": "Lingue, data, luogo e cosa stai organizzando",
       "form_submit": "Invia richiesta <span>↗</span>",
       "form_note": "Il messaggio verrà inviato direttamente via email.",
-      "footer": "INTERPRETING · TRANSLATION · CULTURAL COMMUNICATION"
+      "footer": "Interpretariato Traduzione Consulenza"
     },
     "en": {
       "nav_work": "Selected work",
@@ -536,6 +536,24 @@
       "phone": "+39 340 657 3679",
       "phoneHref": "tel:+393406573679",
       "whatsapp": "https://wa.me/393406573679"
+    },
+    "faq": {
+      "title": "Domande <em>frequenti.</em>",
+      "items": [
+        {
+          "question": "Lavori anche fuori Milano?",
+          "answer": "Sì. Sono basata a Milano e disponibile per incarichi in Europa, Cina e da remoto.",
+          "open": true
+        },
+        {
+          "question": "Cosa serve per richiedere un preventivo?",
+          "answer": "Indicami date, sede o piattaforma, lingue, formato dell'evento. Ti risponderò con una proposta mirata entro 24 ore."
+        },
+        {
+          "question": "Con quanto anticipo devo contattarti?",
+          "answer": "Non appena hai la conferma dell’evento, scrivimi pure. Ma non preoccuparti, accetto richieste anche a stretto giro. Qualora non fossi disponibile per la tua data, ti consiglierò un* colleg* fidat*."
+        }
+      ]
     }
   }
 }
