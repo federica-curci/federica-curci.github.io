@@ -3,7 +3,7 @@
     "email": "federicacurci9@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federica-curci",
     "website": "https://federica-curci.github.io/",
-    "linksIntro": "Italian, English and Chinese Interpreter and Translator in Milan, available across Europe, China and remotely.",
+    "linksIntro": "Interprete e traduttrice italiano, inglese e cinese a Milano, disponibile in Europa, Cina e da remoto.",
     "phone": "+39 340 657 3679",
     "phoneHref": "tel:+393406573679",
     "whatsapp": "https://wa.me/393406573679"
@@ -17,14 +17,6 @@
     "workHeading": {
       "src": "/content/hero.jpg",
       "alt": "Ritratto professionale di Federica Curci"
-    },
-    "translation": {
-      "src": "/content/4.jpg",
-      "alt": "Documenti tradotti e materiali editoriali"
-    },
-    "consulting": {
-      "src": "/content/5.png",
-      "alt": "Consulenza per business con la Cina"
     }
   },
   "galleries": {
@@ -245,7 +237,13 @@
       "email": "federicacurci9@gmail.com",
       "phone": "+39 340 657 3679",
       "phoneHref": "tel:+393406573679",
-      "whatsapp": "https://wa.me/393406573679"
+      "whatsapp": "https://wa.me/393406573679",
+      "formName": "Nome",
+      "formEmail": "Email",
+      "formProject": "Progetto",
+      "formProjectPlaceholder": "Lingue, data, luogo e cosa stai organizzando",
+      "formSubmit": "Invia richiesta <span>↗</span>",
+      "formNote": "Il messaggio verrà inviato direttamente via email."
     },
     "faq": {
       "title": "Domande <em>frequenti.</em>",
@@ -268,16 +266,11 @@
   },
   "languages": {
     "it": {
-      "nav_work": "Su di me",
-      "nav_services": "Servizi",
-      "nav_about": "Formazione",
-      "nav_cta": "Contatti",
-      "hero_eyebrow": "Interprete e Traduttrice · Milano",
       "hero_title": "Una comunicazione efficace, <br />oltre le <em>parole</em>",
       "hero_intro": "Ciao! Sono Federica. Interpreto e traduco tra <strong>italiano</strong>, <strong>inglese</strong> e <strong>cinese</strong>, perché le conversazioni importanti meritano più di una traduzione parola per parola.",
       "hero_cta": "Raccontami il tuo progetto <span>↗</span>",
       "hero_link": "Scopri il mio lavoro <span>↓</span>",
-      "hero_foot": "Interpretariato · Traduzione · Consulenza linguistica",
+      "work_eyebrow": "Su di me",
       "work_title": "Perché scegliere <br /><em>me?</em>",
       "work_intro": "<p>Perché per me l'interpretariato è prima di tutto una <strong>missione</strong>: il tuo <strong>successo</strong> è il mio. Perché nessun algoritmo potrà mai sostituire la mia capacità di cogliere il peso delle parole, di interpretare un silenzio e di trasmettere un'emozione.</p><p>Nel mio lavoro mi impegno a offrire <strong>qualità</strong> e <strong>professionalità</strong>: dal 2026 sono Socia Aggregata <strong>AITI</strong>, la rinomata Associazione Italiana Traduttori e Interpreti.</p><p>Dopo la Laurea Magistrale in Interpretariato e Traduzione, ho lavorato a <strong>Pechino</strong> nel 2023 all'Istituto di Cultura dell'Ambasciata d'Italia in Cina e a <strong>Shanghai</strong> nel 2025-2026 in una Trading Company, acquisendo esperienza in <strong>marketing</strong>, <strong>vendite</strong> e <strong>brand management</strong>.</p>",
       "case_one_type": "Fiere, incontri commerciali",
@@ -289,47 +282,7 @@
       "case_three_type": "Simultanea: conferenze, eventi istituzionali. Per riunioni riservate o con un unico ospite straniero: sussurrata o chuchotage.",
       "case_three_title": "<strong><em>Una cabina insonorizzata e un impianto audio funzionante: è tutto ciò che serve per arrivare a un ampio pubblico</em></strong>",
       "case_three_text": "In occasione di un ciclo di <strong>conferenze</strong> tenute da <strong>ambasciatori accreditati</strong> presso la Santa Sede, ho lavorato con le mie compagne di cabina nella combinazione italiano-inglese.\nIn Cina, in una cena organizzata da un <strong>cliente cinese</strong> per i suoi <strong>partner italiani</strong>, ho invece utilizzato la modalità <strong>chuchotage</strong>, sussurrando loro in tempo reale la traduzione.",
-      "services_eyebrow": "Il mio mantra",
-      "services_title": "Capire prima.<br /><em>Parlare bene,</em> dopo.",
-      "service_one_title": "Interpretariato",
-      "service_one_text": "Consecutiva, simultanea, chuchotage e trattativa per riunioni, fiere, presentazioni, visite e incontri commerciali.",
-      "service_two_title": "Traduzione",
-      "service_two_text": "Testi che preservano tono, intenzione e precisione: comunicazione aziendale, contenuti editoriali e materiali per il mercato.",
-      "service_three_title": "Comunicazione interculturale",
-      "service_three_text": "Un supporto concreto per preparare messaggi, incontri e relazioni tra contesti italiani, europei e cinesi.",
-      "about_eyebrow": "Un profilo, non una posa",
-      "about_text": "Le lingue sono solo l'inizio.<br />Il mio lavoro è far sì che <em>le persone si capiscano davvero.</em>",
-      "quote": "Un silenzio, un sorriso o un'espressione del volto possono cambiare completamente il senso di una conversazione.",
-      "bio_one": "Avevo dieci anni quando, durante un viaggio a Londra con mio padre, ho visto una semplice incomprensione trasformarsi in un problema: aveva dimenticato l'ombrello in un negozio e la sicurezza pensava lo stesse portando via. Una commessa italiana spiegò tutto in inglese e la situazione si sciolse in un attimo. Io decisi che avrei fatto questo lavoro.",
-      "bio_two": "Da allora ho studiato e lavorato tra Italia e Cina. Dopo la Laurea Magistrale in Interpretariato e Traduzione presso UNINT, Pechino e Shanghai mi hanno insegnato una cosa semplice: conoscere le lingue è essenziale, ma sapere ascoltare le persone lo è ancora di più.",
-      "availability": "Europa · Cina · Remoto",
-      "about_cta": "Se hai un progetto, scrivimi <span>↗</span>",
-      "process_eyebrow": "Come lavoro?",
-      "process_title": "Dalla prima email<br />al giorno <em>dell'evento.</em>",
-      "process_one_title": "Conosciamoci",
-      "process_one_text": "Parlami del tuo <strong>progetto</strong> e della tua <strong>esigenza</strong>, ti consiglierò la <strong>modalità</strong> che si adatta al tuo obiettivo. Ti fornirò un <strong>preventivo</strong> personalizzato e <strong>senza impegno</strong>.",
-      "process_two_title": "Mi preparo",
-      "process_two_text": "Dopo aver concordato il servizio e aver definito i dettagli, comincia il mio <strong>studio</strong>. Ogni incarico comporta per me una fase di <strong>preparazione</strong> dettagliata, per offrirti la migliore <strong>qualità</strong> il giorno dell’evento. Ti chiederò di condividere <strong>materiali preparatori</strong> a cui integrerò le mie ricerche. Non temere per la tua <strong>privacy</strong>, garantisco la massima riservatezza e possiamo firmare un NDA.",
-      "process_three_title": "Interpreto",
-      "process_three_text": "Il giorno dell’evento sarò al tuo fianco per <strong>supportarti</strong> e risolvere qualsiasi imprevisto.",
-      "faq_title": "Domande <em>frequenti.</em>",
-      "faq_one_q": "",
-      "faq_one_a": "",
-      "faq_two_q": "Lavori anche fuori Milano?<b>+</b>",
-      "faq_two_a": "Sì. Sono basata a Milano e disponibile per incarichi in Europa, Cina e da remoto.",
-      "faq_three_q": "Cosa serve per richiedere un preventivo?<b>+</b>",
-      "faq_three_a": "Indicami date, sede o piattaforma, lingue, formato dell'evento. Ti risponderò con una proposta mirata entro 24 ore.",
-      "contact_eyebrow": "",
-      "contact_title": "Scrivimi",
-      "contact_note": "Dimmi cosa hai in mente, anche in poche righe.",
-      "form_name": "Nome",
-      "form_email": "Email",
-      "form_project": "Progetto",
-      "form_project_placeholder": "Lingue, data, luogo e cosa stai organizzando",
-      "form_submit": "Invia richiesta <span>↗</span>",
-      "form_note": "Il messaggio verrà inviato direttamente via email.",
       "footer": "Interpretariato Traduzione Consulenza"
     }
-  },
-  "_futureLanguagesNote": "English and Chinese can be added back later by adding languages.en, languages.zh and translated section fields."
+  }
 }

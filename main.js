@@ -48,12 +48,6 @@ const renderContactChannels = (content) => {
   const phoneHref = section.phoneHref || profile.phoneHref || '';
   const whatsapp = section.whatsapp || profile.whatsapp || '';
   contactState.email = email;
-  document.querySelectorAll('.header-email').forEach((link) => {
-    link.href = `mailto:${email}`;
-  });
-  document.querySelectorAll('.header-whatsapp').forEach((link) => {
-    if (whatsapp) link.href = whatsapp;
-  });
   const wrapper = document.querySelector('.contact-channels');
   if (!wrapper) return;
   wrapper.innerHTML = `
@@ -163,6 +157,13 @@ const applyCmsContent = (content) => {
   if (contact) {
     setHtml('[data-i18n-html="contact_title"]', contact.title);
     setText('[data-i18n="contact_note"]', contact.note);
+    setText('[data-i18n="form_name"]', contact.formName);
+    setText('[data-i18n="form_email"]', contact.formEmail);
+    setText('[data-i18n="form_project"]', contact.formProject);
+    setHtml('[data-i18n-html="form_submit"]', contact.formSubmit);
+    setText('[data-i18n="form_note"]', contact.formNote);
+    const projectField = document.querySelector('[data-i18n-placeholder="form_project_placeholder"]');
+    if (projectField && contact.formProjectPlaceholder) projectField.placeholder = contact.formProjectPlaceholder;
   }
   const faq = content.sections?.faq;
   if (faq) {

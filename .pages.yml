@@ -9,220 +9,70 @@ components:
     type: object
     fields:
       - name: src
-        label: Image
+        label: Immagine
         type: image
       - name: alt
-        label: Alt text
+        label: Testo alternativo
         type: string
       - name: caption
-        label: Caption
+        label: Didascalia
         type: text
         required: false
-        description: HTML such as <br /> is allowed for the current design.
+        description: Lascia vuoto se non serve. Puoi usare HTML semplice.
 
-  languageFields:
+  galleryItem:
     type: object
     fields:
-      - name: nav_work
-        label: Navigation - Work
+      - name: src
+        label: Foto
+        type: image
+      - name: alt
+        label: Testo alternativo
         type: string
-      - name: nav_services
-        label: Navigation - Services
-        type: string
-      - name: nav_about
-        label: Navigation - About
-        type: string
-      - name: nav_cta
-        label: Navigation - Contact button
-        type: string
-      - name: hero_eyebrow
-        label: Hero eyebrow
-        type: string
-      - name: hero_title
-        label: Hero title
+      - name: caption
+        label: Didascalia
         type: text
-        description: HTML such as <br /> and <em> is allowed.
-      - name: hero_intro
-        label: Hero intro
-        type: text
-      - name: hero_cta
-        label: Hero button
-        type: string
-      - name: hero_link
-        label: Hero secondary link
-        type: string
-      - name: hero_foot
-        label: Hero footer note
-        type: string
-      - name: work_eyebrow
-        label: Work eyebrow
-        type: string
-      - name: work_title
-        label: Work title
-        type: text
-      - name: work_intro
-        label: Work intro
-        type: text
-      - name: case_one_type
-        label: Case 1 type/date
-        type: string
-      - name: case_one_title
-        label: Case 1 title
-        type: string
-      - name: case_one_text
-        label: Case 1 text
-        type: text
-      - name: case_two_type
-        label: Case 2 type/date
-        type: string
-      - name: case_two_title
-        label: Case 2 title
-        type: string
-      - name: case_two_text
-        label: Case 2 text
-        type: text
-      - name: case_three_type
-        label: Case 3 type/date
-        type: string
-      - name: case_three_title
-        label: Case 3 title
-        type: string
-      - name: case_three_text
-        label: Case 3 text
-        type: text
-      - name: services_eyebrow
-        label: Services eyebrow
-        type: string
-      - name: services_title
-        label: Services title
-        type: text
-      - name: service_one_title
-        label: Service 1 title
-        type: string
-      - name: service_one_text
-        label: Service 1 text
-        type: text
-      - name: service_two_title
-        label: Service 2 title
-        type: string
-      - name: service_two_text
-        label: Service 2 text
-        type: text
-      - name: service_three_title
-        label: Service 3 title
-        type: string
-      - name: service_three_text
-        label: Service 3 text
-        type: text
-      - name: about_eyebrow
-        label: About eyebrow
-        type: string
-      - name: about_text
-        label: About statement
-        type: text
-      - name: quote
-        label: Quote
-        type: text
-      - name: bio_one
-        label: Bio paragraph 1
-        type: text
-      - name: bio_two
-        label: Bio paragraph 2
-        type: text
-      - name: availability
-        label: Availability
-        type: string
-      - name: about_cta
-        label: About link
-        type: string
-      - name: process_eyebrow
-        label: Process eyebrow
-        type: string
-      - name: process_title
-        label: Process title
-        type: text
-      - name: process_one_title
-        label: Process 1 title
-        type: string
-      - name: process_one_text
-        label: Process 1 text
-        type: text
-      - name: process_two_title
-        label: Process 2 title
-        type: string
-      - name: process_two_text
-        label: Process 2 text
-        type: text
-      - name: process_three_title
-        label: Process 3 title
-        type: string
-      - name: process_three_text
-        label: Process 3 text
-        type: text
-      - name: faq_title
-        label: FAQ title
-        type: text
-      - name: faq_one_q
-        label: FAQ 1 question
-        type: string
-      - name: faq_one_a
-        label: FAQ 1 answer
-        type: text
-      - name: faq_two_q
-        label: FAQ 2 question
-        type: string
-      - name: faq_two_a
-        label: FAQ 2 answer
-        type: text
-      - name: faq_three_q
-        label: FAQ 3 question
-        type: string
-      - name: faq_three_a
-        label: FAQ 3 answer
-        type: text
-      - name: contact_eyebrow
-        label: Contact eyebrow
-        type: string
-      - name: contact_title
-        label: Contact title
-        type: text
-      - name: contact_note
-        label: Contact note
-        type: text
-      - name: form_name
-        label: Form name label
-        type: string
-      - name: form_email
-        label: Form email label
-        type: string
-      - name: form_project
-        label: Form project label
-        type: string
-      - name: form_project_placeholder
-        label: Form project placeholder
-        type: string
-      - name: form_submit
-        label: Form submit button
-        type: string
-      - name: form_note
-        label: Form note
-        type: text
-      - name: footer
-        label: Footer text
-        type: string
+        required: false
 
-  caseLanguageFields:
+  formationItem:
     type: object
     fields:
-      - name: type
-        label: Type/date
-        type: string
       - name: title
-        label: Title
+        label: Titolo
+        type: string
+      - name: paragraphs
+        label: Testi
+        type: text
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Paragrafo {index}"
+        description: Puoi usare HTML semplice, per esempio <strong>testo</strong>.
+
+  processStep:
+    type: object
+    fields:
+      - name: title
+        label: Titolo
         type: string
       - name: text
-        label: Text
+        label: Testo
         type: text
+        description: Puoi usare HTML semplice, per esempio <strong>testo</strong>.
+
+  faqItem:
+    type: object
+    fields:
+      - name: question
+        label: Domanda
+        type: string
+      - name: answer
+        label: Risposta
+        type: text
+      - name: open
+        label: Aperta di default
+        type: boolean
+        required: false
 
 content:
   - name: site
@@ -232,94 +82,259 @@ content:
     format: json
     fields:
       - name: profile
-        label: Profile, Contact, Links
+        label: Profilo e link
         type: object
         fields:
           - name: email
             label: Email
             type: string
+          - name: phone
+            label: Telefono
+            type: string
+          - name: phoneHref
+            label: Link telefono
+            type: string
+            description: Esempio tel:+393406573679
+          - name: whatsapp
+            label: Link WhatsApp
+            type: string
           - name: linkedin
-            label: LinkedIn URL
+            label: LinkedIn
             type: string
           - name: website
-            label: Website URL
+            label: Sito
             type: string
           - name: linksIntro
-            label: Link page intro
+            label: Intro pagina link
             type: text
+
       - name: images
-        label: Images
+        label: Immagini principali
         type: object
         fields:
           - name: hero
-            label: Hero photo
+            label: Foto hero
             component: imageSlot
           - name: workHeading
-            label: Work intro photo
+            label: Foto Su di me
             component: imageSlot
-          - name: caseOne
-            label: Case 1 photo
-            component: imageSlot
-          - name: caseTwo
-            label: Case 2 photo
-            component: imageSlot
-          - name: caseThree
-            label: Case 3 photo
-            component: imageSlot
-      - name: cases
-        label: Portfolio cases
+
+      - name: galleries
+        label: Gallerie fotografiche
         type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{adminTitle} ({index})"
         fields:
-          - name: adminTitle
-            label: CMS title
-            type: string
-            description: Internal label only, used to identify this case in Pages CMS.
-          - name: style
-            label: Visual style
-            type: string
-            description: Use beijing, shanghai, or europe.
-          - name: image
-            label: Photo
-            component: imageSlot
-          - name: place
-            label: Place label
-            type: string
-            description: HTML such as <br /> is allowed.
-          - name: mark
-            label: Decorative mark
-            type: string
-            required: false
-            description: Optional. Leave empty for the line-map decoration.
-          - name: tag
-            label: Language tag
-            type: string
-          - name: languages
-            label: Case text by language
-            type: object
-            fields:
-              - name: it
-                label: Italian
-                component: caseLanguageFields
-              - name: en
-                label: English
-                component: caseLanguageFields
-              - name: zh
-                label: Chinese
-                component: caseLanguageFields
+          - name: interpretazione_b2b
+            label: Interpretazione di trattativa o B2B
+            component: galleryItem
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+          - name: interpretazione_consecutiva
+            label: Interpretazione consecutiva
+            component: galleryItem
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+          - name: interpretazione_simultanea
+            label: Simultanea, sussurrata o chuchotage
+            component: galleryItem
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+
       - name: languages
-        label: Text by language
+        label: Testi principali
         type: object
         fields:
           - name: it
-            label: Italian
-            component: languageFields
-          - name: en
-            label: English
-            component: languageFields
-          - name: zh
-            label: Chinese
-            component: languageFields
+            label: Italiano
+            type: object
+            fields:
+              - name: hero_title
+                label: Titolo hero
+                type: text
+                description: Puoi usare <br />, <em> e <strong>.
+              - name: hero_intro
+                label: Testo hero
+                type: text
+                description: Puoi usare HTML semplice.
+              - name: hero_cta
+                label: Bottone hero
+                type: string
+              - name: hero_link
+                label: Link secondario hero
+                type: string
+              - name: work_eyebrow
+                label: Etichetta Su di me
+                type: string
+              - name: work_title
+                label: Titolo Su di me
+                type: text
+              - name: work_intro
+                label: Testo Su di me
+                type: text
+                description: Puoi usare paragrafi HTML e <strong>.
+              - name: case_one_type
+                label: B2B, sottotitolo
+                type: string
+              - name: case_one_title
+                label: B2B, frase in evidenza
+                type: text
+              - name: case_one_text
+                label: B2B, testo
+                type: text
+              - name: case_two_type
+                label: Consecutiva, sottotitolo
+                type: string
+              - name: case_two_title
+                label: Consecutiva, frase in evidenza
+                type: text
+              - name: case_two_text
+                label: Consecutiva, testo
+                type: text
+              - name: case_three_type
+                label: Simultanea e chuchotage, sottotitolo
+                type: string
+              - name: case_three_title
+                label: Simultanea e chuchotage, frase in evidenza
+                type: text
+              - name: case_three_text
+                label: Simultanea e chuchotage, testo
+                type: text
+              - name: footer
+                label: Footer
+                type: string
+
+      - name: sections
+        label: Sezioni del sito
+        type: object
+        fields:
+          - name: translation
+            label: Traduzione
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: text
+              - name: image
+                label: Immagine
+                component: imageSlot
+              - name: paragraphs
+                label: Paragrafi
+                type: text
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "Paragrafo {index}"
+                description: Puoi usare HTML semplice.
+
+          - name: consulting
+            label: Consulenza
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: text
+              - name: image
+                label: Immagine
+                component: imageSlot
+              - name: paragraphs
+                label: Paragrafi
+                type: text
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "Paragrafo {index}"
+                description: Puoi usare HTML semplice.
+
+          - name: formation
+            label: Formazione
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: text
+              - name: lead
+                label: Testo introduttivo
+                type: text
+              - name: items
+                label: Blocchi formazione
+                component: formationItem
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{title}"
+
+          - name: process
+            label: Come lavoro
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: text
+              - name: steps
+                label: Passaggi
+                component: processStep
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{title}"
+
+          - name: contact
+            label: Contatti
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: string
+              - name: note
+                label: Nota
+                type: text
+              - name: email
+                label: Email
+                type: string
+              - name: phone
+                label: Telefono
+                type: string
+              - name: phoneHref
+                label: Link telefono
+                type: string
+              - name: whatsapp
+                label: Link WhatsApp
+                type: string
+              - name: formName
+                label: Campo nome
+                type: string
+              - name: formEmail
+                label: Campo email
+                type: string
+              - name: formProject
+                label: Campo progetto
+                type: string
+              - name: formProjectPlaceholder
+                label: Placeholder progetto
+                type: string
+              - name: formSubmit
+                label: Bottone form
+                type: string
+              - name: formNote
+                label: Nota form
+                type: text
+
+          - name: faq
+            label: Domande frequenti
+            type: object
+            fields:
+              - name: title
+                label: Titolo
+                type: text
+              - name: items
+                label: Domande
+                component: faqItem
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{question}"
